@@ -1,0 +1,2845 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- *
+ * This software is distributed in the hope that it will be useful,
+ * but is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+ * CONDITIONS OF ANY KIND, without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ *
+ * This software may only be used to program products purchased from
+ * Analog Devices for incorporation by you into audio products that
+ * are intended for resale to audio product end users. This software
+ * may not be distributed whole or in any part to third parties.
+ *
+ * Copyright ©2023 Analog Devices, Inc. All rights reserved.
+ */
+-->
+<!--SigmaStudio export XML file-->
+<Schematic>
+    <IC>
+        <Name>IC 1</Name>
+        <PartNumber>ADAU1452</PartNumber>
+        <Register>
+            <Name>__SafeLoad_Module__data_SafeLoad</Name>
+            <Address>108</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>20</Size>
+            <Data>0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>__SafeLoad_Module__address_SafeLoad</Name>
+            <Address>113</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>4</Size>
+            <Data>0x00, 0x00, 0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOFT_RESET</Name>
+            <Address>63632</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOFT_RESET</Name>
+            <Address>63632</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x01, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.Reset Delay</Name>
+            <Address>0</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0xFF, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.HIBERNATE</Name>
+            <Address>62464</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.HIBERNATE</Name>
+            <Address>62464</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x01, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.Hibernate Delay</Name>
+            <Address>0</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0xFF, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.KILL_CORE</Name>
+            <Address>62467</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.KILL_CORE</Name>
+            <Address>62467</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x01, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.PLL_ENABLE</Name>
+            <Address>61443</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.PLL_CTRL0 Register</Name>
+            <Address>61440</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x60, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.PLL_CTRL1 Register</Name>
+            <Address>61441</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.PLL_CLK_SRC Register</Name>
+            <Address>61442</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x01, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.MCLK_OUT Register</Name>
+            <Address>61445</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x05, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.PLL_ENABLE Register</Name>
+            <Address>61443</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x01, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.PLL Lock Delay</Name>
+            <Address>0</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0xFF, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.POWER_ENABLE0 Register</Name>
+            <Address>61520</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x1F, 0xFF, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.POWER_ENABLE1 Register</Name>
+            <Address>61521</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x1F, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.ASRC_INPUT0</Name>
+            <Address>61696</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x03, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.ASRC_INPUT1</Name>
+            <Address>61697</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x41, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.ASRC_INPUT2</Name>
+            <Address>61698</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x81, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.ASRC_OUT_RATE0</Name>
+            <Address>61760</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x06, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.ASRC_OUT_RATE1</Name>
+            <Address>61761</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x06, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.ASRC_OUT_RATE2</Name>
+            <Address>61762</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x06, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE0</Name>
+            <Address>61824</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE1</Name>
+            <Address>61825</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE2</Name>
+            <Address>61826</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE3</Name>
+            <Address>61827</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE4</Name>
+            <Address>61828</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE5</Name>
+            <Address>61829</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE6</Name>
+            <Address>61830</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE7</Name>
+            <Address>61831</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE8</Name>
+            <Address>61832</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE9</Name>
+            <Address>61833</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE10</Name>
+            <Address>61834</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE11</Name>
+            <Address>61835</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE12</Name>
+            <Address>61836</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE13</Name>
+            <Address>61837</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE14</Name>
+            <Address>61838</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE15</Name>
+            <Address>61839</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE16</Name>
+            <Address>61840</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE17</Name>
+            <Address>61841</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE18</Name>
+            <Address>61842</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE19</Name>
+            <Address>61843</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE20</Name>
+            <Address>61844</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE21</Name>
+            <Address>61845</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE22</Name>
+            <Address>61846</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE23</Name>
+            <Address>61847</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SPDIFTX_INPUT</Name>
+            <Address>61888</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x01, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SERIAL_BYTE_0_0</Name>
+            <Address>61952</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x90, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SERIAL_BYTE_1_0</Name>
+            <Address>61956</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x24, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SERIAL_BYTE_2_0</Name>
+            <Address>61960</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x48, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SERIAL_BYTE_3_0</Name>
+            <Address>61964</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x90, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SERIAL_BYTE_4_0</Name>
+            <Address>61968</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x90, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SERIAL_BYTE_5_0</Name>
+            <Address>61972</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x90, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SERIAL_BYTE_6_0</Name>
+            <Address>61976</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x90, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SERIAL_BYTE_7_0</Name>
+            <Address>61980</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x90, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SPDIF_RX_CTRL</Name>
+            <Address>62977</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x08, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SPDIF_RESTART</Name>
+            <Address>62980</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x01, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SPDIF_TX_EN</Name>
+            <Address>63120</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x01, </Data>
+        </Register>
+        <Program>
+            <Name>Program Data</Name>
+            <Address>49152</Address>
+            <AddrIncr>4</AddrIncr>
+            <Size>3452</Size>
+            <Data>0x00, 0x00, 0x00, 0x02, 0x0C, 0x00, 0xDC, 0xDC, 0x0D, 0x00, 0xFF, 0xD2, 0x0D, 0x00, 0xFF, 0xD0, 0x0D, 0x00, 0xF4, 0x50, 0x0D, 0x00, 0xF4, 0x00, 0xC0, 0x00, 0x23, 0x80, 0x80, 0x00, 0x00, 0x00, 0xC0, 0x00, 0x23, 0x00, 0x80, 0x00, 0x00, 0x00, 0xC0, 0x00, 0x23, 0xC0, 0x80, 0x00, 0x00, 0x10, 0xC0, 0x00, 0x22, 0x00, 0x80, 0x00, 0x00, 0x00, 0x08, 0x80, 0xDC, 0xE0, 0x0C, 0x00, 0xDC, 0xDC, 0xC0, 0x00, 0x28, 0x30, 0x80, 0x00, 0x00, 0x08, 0xC0, 0x00, 0x30, 0x00, 0x80, 0x00, 0x00, 0x10, 0x01, 0x00, 0x00, 0x16, 0x06, 0x40, 0x40, 0x10, 0xC0, 0x00, 0x28, 0x30, 0x80, 0x00, 0x00, 0x44, 0xC0, 0x00, 0x30, 0x00, 0x80, 0x00, 0x00, 0x18, 0x01, 0x00, 0x00, 0x1C, 0x06, 0x40, 0x40, 0x10, 0xC0, 0x00, 0x28, 0x30, 0x80, 0x00, 0x00, 0x64, 0xC0, 0x00, 0x30, 0x00, 0x80, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x22, 0x06, 0x40, 0x50, 0x10, 0xC0, 0x00, 0x28, 0x30, 0x80, 0x00, 0x00, 0x5C, 0xC0, 0x00, 0x30, 0x00, 0x80, 0x00, 0x00, 0x64, 0x01, 0x00, 0x00, 0x28, 0x06, 0x40, 0x50, 0x10, 0xC0, 0x00, 0x20, 0x00, 0x80, 0x00, 0x00, 0x3B, 0x0D, 0x00, 0xFF, 0xC1, 0xC0, 0x00, 0x20, 0x00, 0x80, 0x00, 0x00, 0x01, 0x0D, 0x00, 0xF4, 0x62, 0xC0, 0x00, 0x20, 0x00, 0x80, 0x00, 0x00, 0x00, 0x0D, 0x00, 0xF4, 0x62, 0xC0, 0x00, 0x20, 0x00, 0x80, 0x00, 0x00, 0x02, 0x0D, 0x00, 0xFF, 0xD1, 0x00, 0x00, 0x00, 0x03, 0x0D, 0x00, 0xFF, 0xD2, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x02, 0x01, 0x00, 0x36, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x08, 0x9E, 0xDC, 0xE0, 0x08, 0x9C, 0x00, 0x64, 0x08, 0x9A, 0x00, 0x5C, 0x08, 0x98, 0x00, 0x68, 0x08, 0x96, 0x00, 0x60, 0x00, 0x00, 0x00, 0x00, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x4F, 0x00, 0x6C, 0x08, 0x8A, 0xDC, 0xE0, 0x0A, 0x21, 0x00, 0x72, 0x00, 0x8C, 0x20, 0x00, 0x0A, 0xA5, 0x00, 0x71, 0x02, 0x09, 0x00, 0x55, 0xC0, 0x00, 0x28, 0x70, 0x80, 0x00, 0x60, 0x00, 0x00, 0x8C, 0x11, 0x91, 0x00, 0x00, 0x00, 0x23, 0x00, 0x00, 0x00, 0x00, 0x30, 0x00, 0xBC, 0xE9, 0x00, 0x00, 0xC2, 0xF1, 0x01, 0x00, 0x00, 0x54, 0x06, 0x00, 0x40, 0x14, 0x36, 0x40, 0x50, 0x15, 0x26, 0x40, 0x40, 0x15, 0x09, 0x2A, 0x00, 0x72, 0x00, 0x00, 0x00, 0x00, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x0F, 0x00, 0x00, 0x08, 0x00, 0x01, 0xC1, 0x00, 0x00, 0x00, 0x00, 0x06, 0x00, 0x40, 0x00, 0x06, 0x40, 0x10, 0x3E, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x0F, 0x00, 0x00, 0x08, 0x00, 0x01, 0xC2, 0x00, 0x00, 0x00, 0x00, 0x06, 0x00, 0x40, 0x00, 0x06, 0x40, 0x10, 0x1E, 0x0C, 0x00, 0x01, 0xC3, 0x06, 0x40, 0x10, 0x2E, 0x0C, 0x00, 0x01, 0xC4, 0x06, 0x40, 0x10, 0x0E, 0x0C, 0x00, 0xFC, 0x40, 0x06, 0x40, 0x10, 0x4E, 0x0C, 0x00, 0xFC, 0x41, 0x06, 0x40, 0x10, 0x5E, 0x0C, 0x00, 0x01, 0xC5, 0x06, 0x40, 0x15, 0x9E, 0x0C, 0x00, 0xFC, 0x68, 0x06, 0x40, 0x10, 0x6E, 0x0C, 0x00, 0xFC, 0x69, 0x06, 0x40, 0x10, 0x7E, 0x0C, 0x30, 0xFC, 0x30, 0x06, 0x40, 0x10, 0x8E, 0x06, 0x40, 0x90, 0x9E, 0x0C, 0x30, 0xFC, 0x30, 0x06, 0x41, 0x10, 0xAE, 0x06, 0x41, 0x90, 0xDE, 0x0C, 0x30, 0xFC, 0x34, 0x06, 0x40, 0x10, 0xBE, 0x06, 0x40, 0x90, 0xCE, 0x05, 0x0C, 0x10, 0x0E, 0x05, 0x0C, 0x90, 0x1E, 0x00, 0x94, 0x00, 0x01, 0x05, 0x4C, 0x10, 0xFE, 0x05, 0x0C, 0x10, 0x2E, 0x05, 0x0C, 0x90, 0x3E, 0x00, 0x94, 0x00, 0x01, 0x05, 0x4C, 0x10, 0xEE, 0x0C, 0x82, 0x01, 0xC6, 0x0A, 0x21, 0xDC, 0xDC, 0x35, 0x0C, 0x10, 0x4E, 0x05, 0x4C, 0x11, 0x0E, 0x0C, 0x82, 0x01, 0xC7, 0x0A, 0x21, 0xDC, 0xDC, 0x35, 0x0C, 0x10, 0x5E, 0x05, 0x4C, 0x11, 0x1E, 0x0C, 0x82, 0x01, 0xC8, 0x0A, 0x21, 0xDC, 0xDC, 0x35, 0x0C, 0x10, 0x6E, 0x05, 0x4C, 0x11, 0x4E, 0x0C, 0x82, 0x01, 0xC9, 0x0A, 0x21, 0xDC, 0xDC, 0x35, 0x0C, 0x10, 0x7E, 0x05, 0x4C, 0x11, 0x5E, 0x0C, 0x82, 0x01, 0xCA, 0x0A, 0x21, 0xDC, 0xDC, 0x35, 0x0C, 0x10, 0x8E, 0x05, 0x4C, 0x11, 0x9E, 0x0C, 0x82, 0x01, 0xCB, 0x0A, 0x21, 0xDC, 0xDC, 0x35, 0x0C, 0x10, 0x9E, 0x05, 0x4C, 0x11, 0xBE, 0x0C, 0x82, 0x01, 0xCC, 0x0A, 0x21, 0xDC, 0xDC, 0x35, 0x0C, 0x10, 0xAE, 0x05, 0x4C, 0x11, 0xCE, 0x0C, 0x82, 0x01, 0xCD, 0x0A, 0x21, 0xDC, 0xDC, 0x35, 0x0C, 0x10, 0xBE, 0x05, 0x4C, 0x11, 0x2E, 0x0C, 0x82, 0x01, 0xCE, 0x0A, 0x21, 0xDC, 0xDC, 0x35, 0x0C, 0x10, 0xCE, 0x05, 0x4C, 0x11, 0x3E, 0x0C, 0x82, 0x01, 0xCF, 0x0A, 0x21, 0xDC, 0xDC, 0x35, 0x0C, 0x10, 0xDE, 0x05, 0x4C, 0x15, 0xAE, 0x05, 0x0C, 0x10, 0xEE, 0x0B, 0x21, 0x00, 0x73, 0x05, 0x4C, 0x11, 0x6E, 0x05, 0x0C, 0x10, 0xFE, 0x0B, 0x21, 0x00, 0x74, 0x05, 0x4C, 0x11, 0x7E, 0x0C, 0x40, 0x01, 0xD0, 0x06, 0x00, 0x11, 0x0E, 0x06, 0x00, 0x91, 0x1E, 0x00, 0x10, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x05, 0x4C, 0x12, 0x3E, 0x05, 0x6C, 0x12, 0x8E, 0x0C, 0x40, 0x01, 0xD1, 0x06, 0x00, 0x11, 0x2E, 0x06, 0x00, 0x91, 0x3E, 0x00, 0x10, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x05, 0x4C, 0x12, 0x5E, 0x05, 0x6C, 0x12, 0xAE, 0x0C, 0x40, 0x01, 0xD2, 0x06, 0x00, 0x11, 0x4E, 0x06, 0x00, 0x91, 0x5E, 0x00, 0x10, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x05, 0x4C, 0x12, 0x6E, 0x05, 0x6C, 0x12, 0xBE, 0x05, 0x0C, 0x11, 0x6E, 0x05, 0x0C, 0x91, 0x7E, 0x00, 0x94, 0x00, 0x01, 0x05, 0x4C, 0x11, 0xDE, 0x0C, 0x20, 0x00, 0x75, 0x00, 0x04, 0x40, 0x02, 0x05, 0x0C, 0x91, 0x8E, 0x05, 0x2C, 0x91, 0x9E, 0x00, 0x84, 0x11, 0x91, 0x00, 0x84, 0x00, 0x01, 0x0B, 0x61, 0x00, 0x75, 0x05, 0x4C, 0x11, 0xFE, 0x0C, 0x20, 0x00, 0x78, 0x00, 0x04, 0x40, 0x02, 0x05, 0x0C, 0x91, 0xAE, 0x05, 0x2C, 0x91, 0xBE, 0x00, 0x84, 0x11, 0x91, 0x00, 0x84, 0x00, 0x01, 0x0B, 0x61, 0x00, 0x78, 0x05, 0x4C, 0x12, 0x0E, 0x0C, 0x40, 0x01, 0xD3, 0x06, 0x00, 0x11, 0xCE, 0x06, 0x00, 0x91, 0xCE, 0x00, 0x10, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x05, 0x4C, 0x12, 0x4E, 0x05, 0x6C, 0x12, 0x9E, 0x0C, 0x8A, 0x00, 0x7B, 0x05, 0x0C, 0x11, 0xDE, 0x00, 0x85, 0x20, 0x00, 0x05, 0x4C, 0x11, 0xEE, 0xC0, 0x00, 0x08, 0x1F, 0x8D, 0x80, 0x00, 0xC1, 0x05, 0x0C, 0x11, 0xEE, 0x0B, 0x21, 0xFD, 0x84, 0x0A, 0x27, 0x00, 0xC3, 0x00, 0x88, 0x10, 0x10, 0x0A, 0x27, 0x00, 0xC2, 0x0A, 0xA3, 0xDC, 0x40, 0x00, 0x20, 0x06, 0x28, 0x0B, 0x25, 0xFD, 0x98, 0xC0, 0x00, 0x08, 0x1F, 0x8D, 0x94, 0x00, 0xC0, 0x0B, 0x23, 0x00, 0xC3, 0xC0, 0x00, 0x08, 0x00, 0x80, 0xC2, 0xFD, 0x9C, 0xC0, 0x00, 0x08, 0x1F, 0x8D, 0x98, 0x00, 0xC2, 0x06, 0x10, 0x11, 0xFE, 0x0C, 0x00, 0xFD, 0xA0, 0x00, 0x04, 0x00, 0x08, 0x0D, 0x01, 0x00, 0xC0, 0x05, 0x4C, 0x12, 0x1E, 0xC0, 0x00, 0x08, 0x1F, 0x8D, 0x80, 0x00, 0xC5, 0x05, 0x0C, 0x11, 0xEE, 0x0B, 0x21, 0xFD, 0x84, 0x0A, 0x27, 0x00, 0xC7, 0x00, 0x88, 0x10, 0x10, 0x0A, 0x27, 0x00, 0xC6, 0x0A, 0xA3, 0xDC, 0x40, 0x00, 0x20, 0x06, 0x28, 0x0B, 0x25, 0xFD, 0x98, 0xC0, 0x00, 0x08, 0x1F, 0x8D, 0x94, 0x00, 0xC4, 0x0B, 0x23, 0x00, 0xC7, 0xC0, 0x00, 0x08, 0x00, 0x80, 0xC6, 0xFD, 0x9C, 0xC0, 0x00, 0x08, 0x1F, 0x8D, 0x98, 0x00, 0xC6, 0x06, 0x10, 0x12, 0x0E, 0x0C, 0x00, 0xFD, 0xA0, 0x00, 0x04, 0x00, 0x08, 0x0D, 0x01, 0x00, 0xC4, 0x05, 0x4C, 0x12, 0x2E, 0x0C, 0x40, 0x01, 0xD4, 0x06, 0x00, 0x12, 0x1E, 0x06, 0x00, 0x92, 0x2E, 0x00, 0x10, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x05, 0x4C, 0x12, 0x7E, 0x05, 0x6C, 0x12, 0xCE, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x0F, 0x00, 0x7C, 0x06, 0x10, 0x12, 0x3E, 0x06, 0x10, 0x92, 0x4E, 0x06, 0x11, 0x12, 0x5E, 0x06, 0x11, 0x92, 0x6E, 0x06, 0x0C, 0x40, 0x40, 0xE0, 0x38, 0x80, 0x06, 0x80, 0x00, 0x01, 0x04, 0x06, 0x10, 0x12, 0x7E, 0xE0, 0x00, 0x80, 0x00, 0x88, 0x20, 0x01, 0x01, 0x00, 0x84, 0x01, 0x10, 0x05, 0x4C, 0x92, 0xDE, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x0F, 0x00, 0x81, 0x06, 0x10, 0x12, 0x8E, 0x06, 0x10, 0x92, 0x9E, 0x06, 0x11, 0x12, 0xAE, 0x06, 0x11, 0x92, 0xBE, 0x06, 0x0C, 0x40, 0x40, 0xE0, 0x38, 0x80, 0x06, 0x80, 0x00, 0x01, 0x04, 0x06, 0x10, 0x12, 0xCE, 0xE0, 0x00, 0x80, 0x00, 0x88, 0x20, 0x01, 0x01, 0x00, 0x84, 0x01, 0x10, 0x05, 0x4C, 0x92, 0xEE, 0x0C, 0x34, 0x01, 0xA5, 0x00, 0x06, 0x00, 0x00, 0x06, 0x10, 0x12, 0xDE, 0x00, 0x04, 0x45, 0x08, 0x0B, 0x21, 0x01, 0xA5, 0x05, 0x4C, 0x92, 0xFE, 0x0C, 0x34, 0x01, 0xA9, 0x00, 0x06, 0x00, 0x00, 0x06, 0x10, 0x12, 0xEE, 0x00, 0x04, 0x45, 0x08, 0x0B, 0x21, 0x01, 0xA9, 0x05, 0x4C, 0x93, 0x0E, 0x06, 0x00, 0x12, 0xFE, 0x0D, 0x00, 0xFC, 0xF0, 0x0C, 0x10, 0x00, 0x86, 0x0E, 0x05, 0x00, 0x88, 0x05, 0x0C, 0x12, 0xFE, 0x00, 0x8C, 0x90, 0x90, 0x00, 0x00, 0x00, 0x21, 0x0A, 0xA9, 0xDC, 0xDC, 0x30, 0x00, 0xB4, 0x01, 0x20, 0x00, 0xB4, 0x00, 0x00, 0x8C, 0x18, 0x01, 0x0B, 0xA1, 0x00, 0x86, 0x00, 0x20, 0x09, 0x58, 0x05, 0x6D, 0x13, 0x1E, 0x0C, 0x34, 0x01, 0xAD, 0x00, 0x06, 0x00, 0x00, 0x06, 0x10, 0x12, 0xFE, 0x06, 0x10, 0x93, 0x0E, 0x00, 0x00, 0xBC, 0x68, 0x00, 0x1C, 0x80, 0x48, 0x0B, 0x21, 0x01, 0xAD, 0x05, 0x4C, 0x93, 0x2E, 0x05, 0x6C, 0x93, 0x3E, 0x0C, 0x34, 0x01, 0xB1, 0x00, 0x06, 0x00, 0x00, 0x06, 0x10, 0x12, 0xFE, 0x06, 0x10, 0x93, 0x0E, 0x00, 0x00, 0xBC, 0x68, 0x00, 0x1C, 0x80, 0x48, 0x0B, 0x21, 0x01, 0xB1, 0x05, 0x4C, 0x93, 0x5E, 0x05, 0x6C, 0x93, 0x4E, 0x0C, 0x10, 0x00, 0x8A, 0x0E, 0x05, 0x00, 0x8C, 0x05, 0x0C, 0x13, 0x0E, 0x00, 0x8C, 0x90, 0x90, 0x00, 0x00, 0x00, 0x21, 0x0A, 0xA9, 0xDC, 0xDC, 0x30, 0x00, 0xB4, 0x01, 0x20, 0x00, 0xB4, 0x00, 0x00, 0x8C, 0x18, 0x01, 0x0B, 0xA1, 0x00, 0x8A, 0x00, 0x20, 0x09, 0x58, 0x05, 0x6D, 0x13, 0x6E, 0x05, 0x0C, 0x13, 0x1E, 0x0B, 0x21, 0x00, 0x8E, 0x05, 0x4C, 0x15, 0xBE, 0x0C, 0x34, 0x01, 0xB5, 0x00, 0x06, 0x00, 0x00, 0x06, 0x10, 0x12, 0xFE, 0x06, 0x10, 0x93, 0x0E, 0x00, 0x00, 0xBC, 0x68, 0x00, 0x1C, 0x80, 0x48, 0x0B, 0x21, 0x01, 0xB5, 0x05, 0x4C, 0x93, 0xCE, 0x05, 0x6C, 0x93, 0xBE, 0x06, 0x00, 0x13, 0x0E, 0x0D, 0x00, 0xFC, 0xF1, 0x05, 0x0F, 0x93, 0x2E, 0x05, 0x4F, 0x95, 0xEE, 0x05, 0x4F, 0x80, 0x2D, 0x0C, 0x4E, 0x01, 0xD5, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x0C, 0x00, 0x0C, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x1F, 0x00, 0x8F, 0x06, 0x08, 0x15, 0xCE, 0x06, 0x18, 0x40, 0x31, 0xFC, 0x6C, 0x80, 0x01, 0x88, 0x00, 0x01, 0x22, 0xFD, 0x6C, 0x80, 0x23, 0x80, 0x82, 0x08, 0x23, 0x00, 0x04, 0x41, 0x0F, 0x06, 0x0C, 0x10, 0x0C, 0xE0, 0x34, 0xA2, 0x07, 0x80, 0x80, 0x00, 0x20, 0xE8, 0x80, 0x00, 0x26, 0x8C, 0x28, 0x00, 0x00, 0xE0, 0x00, 0x26, 0x6B, 0x81, 0x00, 0x00, 0x00, 0x00, 0x84, 0x01, 0x1A, 0x05, 0x5C, 0x90, 0x4C, 0x05, 0x4C, 0x93, 0x7E, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x0B, 0x00, 0x00, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x1F, 0x00, 0xC8, 0x06, 0x08, 0x00, 0x0D, 0x06, 0x18, 0x50, 0x31, 0xF6, 0x78, 0x80, 0x01, 0x88, 0x02, 0x44, 0x00, 0xF6, 0x7A, 0x80, 0x23, 0x80, 0x80, 0x47, 0x04, 0x06, 0x0C, 0x10, 0x6C, 0xFA, 0x40, 0x22, 0x07, 0x80, 0x80, 0x40, 0x00, 0xE0, 0x11, 0x00, 0x26, 0x8C, 0x28, 0x00, 0x00, 0xE0, 0x00, 0x26, 0x6B, 0x81, 0x00, 0x00, 0x00, 0x00, 0x84, 0x01, 0x1A, 0x05, 0x5C, 0x90, 0xAC, 0x05, 0x4C, 0x93, 0x9E, 0x05, 0x0F, 0x93, 0x3E, 0x05, 0x4F, 0x96, 0x1E, 0x05, 0x4F, 0x80, 0x5D, 0x0C, 0x4E, 0x01, 0xD6, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x0C, 0x00, 0x1E, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x1F, 0x00, 0x99, 0x06, 0x08, 0x15, 0xFE, 0x06, 0x18, 0x40, 0x31, 0xFC, 0x6C, 0x80, 0x01, 0x88, 0x00, 0x01, 0x22, 0xFD, 0x6C, 0x80, 0x23, 0x80, 0x82, 0x08, 0x23, 0x00, 0x04, 0x41, 0x0F, 0x06, 0x0C, 0x11, 0x2C, 0xE0, 0x34, 0xA2, 0x07, 0x80, 0x80, 0x00, 0x20, 0xE8, 0x80, 0x00, 0x26, 0x8C, 0x28, 0x00, 0x00, 0xE0, 0x00, 0x26, 0x6B, 0x81, 0x00, 0x00, 0x00, 0x00, 0x84, 0x01, 0x1A, 0x05, 0x5C, 0x91, 0x6C, 0x05, 0x4C, 0x93, 0x8E, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x0B, 0x00, 0x06, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x1F, 0x00, 0xD2, 0x06, 0x08, 0x00, 0x3D, 0x06, 0x18, 0x50, 0x31, 0xF6, 0x78, 0x80, 0x01, 0x88, 0x02, 0x44, 0x00, 0xF6, 0x7A, 0x80, 0x23, 0x80, 0x80, 0x47, 0x04, 0x06, 0x0C, 0x11, 0x8C, 0xFA, 0x40, 0x22, 0x07, 0x80, 0x80, 0x40, 0x00, 0xE0, 0x11, 0x00, 0x26, 0x8C, 0x28, 0x00, 0x00, 0xE0, 0x00, 0x26, 0x6B, 0x81, 0x00, 0x00, 0x00, 0x00, 0x84, 0x01, 0x1A, 0x05, 0x5C, 0x91, 0xCC, 0x05, 0x4C, 0x93, 0xAE, 0x06, 0x00, 0x13, 0x4E, 0x0D, 0x00, 0xFC, 0xC1, 0x06, 0x00, 0x13, 0x5E, 0x0D, 0x00, 0xFC, 0xC0, 0x05, 0x0C, 0x13, 0x6E, 0x0B, 0x21, 0x00, 0xA3, 0x05, 0x4C, 0x16, 0x2E, 0xC0, 0x00, 0x08, 0x0F, 0x8D, 0x80, 0x00, 0xA6, 0xC0, 0x00, 0x08, 0x0F, 0x8D, 0x84, 0x00, 0xA5, 0xC0, 0x00, 0x08, 0x0F, 0x8D, 0x94, 0x00, 0xA4, 0x06, 0x10, 0x13, 0x7E, 0x06, 0x10, 0x93, 0x8E, 0x0C, 0x01, 0xFD, 0xA0, 0x00, 0x10, 0x00, 0x08, 0x0D, 0x00, 0x00, 0xA4, 0x05, 0x4C, 0x13, 0xFE, 0x05, 0x6C, 0x14, 0x0E, 0xC0, 0x00, 0x08, 0x0F, 0x8D, 0x80, 0x00, 0xA9, 0xC0, 0x00, 0x08, 0x0F, 0x8D, 0x84, 0x00, 0xA8, 0xC0, 0x00, 0x08, 0x0F, 0x8D, 0x94, 0x00, 0xA7, 0x06, 0x10, 0x13, 0x9E, 0x06, 0x10, 0x93, 0xAE, 0x0C, 0x01, 0xFD, 0xA0, 0x00, 0x10, 0x00, 0x08, 0x0D, 0x00, 0x00, 0xA7, 0x05, 0x4C, 0x13, 0xDE, 0x05, 0x6C, 0x13, 0xEE, 0x06, 0x00, 0x13, 0xBE, 0x0D, 0x00, 0xFC, 0xD1, 0x06, 0x00, 0x13, 0xCE, 0x0D, 0x00, 0xFC, 0xD0, 0x0C, 0x34, 0x01, 0xB9, 0x00, 0x06, 0x00, 0x00, 0x06, 0x10, 0x13, 0xDE, 0x06, 0x10, 0x93, 0xEE, 0x00, 0x00, 0xBC, 0x68, 0x00, 0x1C, 0x80, 0x48, 0x0B, 0x21, 0x01, 0xB9, 0x05, 0x4C, 0x94, 0x9E, 0x05, 0x6C, 0x94, 0xCE, 0x0C, 0x34, 0x01, 0xBD, 0x00, 0x06, 0x00, 0x00, 0x06, 0x10, 0x13, 0xFE, 0x06, 0x10, 0x94, 0x0E, 0x00, 0x00, 0xBC, 0x68, 0x00, 0x1C, 0x80, 0x48, 0x0B, 0x21, 0x01, 0xBD, 0x05, 0x4C, 0x94, 0x3E, 0x05, 0x6C, 0x94, 0x6E, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x0C, 0x00, 0x24, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x1B, 0x00, 0x0C, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x6F, 0x00, 0xAA, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x7F, 0x00, 0xDC, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x2E, 0x00, 0x41, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x3E, 0x00, 0x44, 0xF8, 0x74, 0x80, 0x00, 0x80, 0x00, 0x81, 0xC3, 0xF9, 0x6C, 0x80, 0x09, 0x88, 0x00, 0xC1, 0xC2, 0xFC, 0x40, 0x00, 0x29, 0x8A, 0x02, 0x08, 0x00, 0xE0, 0x3A, 0x80, 0x07, 0x80, 0x80, 0x01, 0x24, 0xFA, 0x40, 0x28, 0x67, 0x81, 0x83, 0xC6, 0x00, 0xF6, 0x40, 0x4A, 0x41, 0x8F, 0x0B, 0xC4, 0x00, 0x03, 0x03, 0x02, 0x32, 0xFC, 0x74, 0x80, 0x23, 0x8B, 0x88, 0x01, 0xC3, 0xEA, 0xBA, 0x80, 0x07, 0x80, 0x82, 0x08, 0x20, 0xE0, 0x35, 0x20, 0x67, 0x81, 0x80, 0x01, 0x24, 0xE0, 0x00, 0x42, 0x49, 0x8F, 0x00, 0x00, 0x00, 0xFC, 0x6C, 0x80, 0x2B, 0x8B, 0x80, 0x01, 0xC2, 0xE8, 0xBA, 0x80, 0x07, 0x80, 0x82, 0x08, 0x20, 0xFA, 0x71, 0x28, 0x67, 0x81, 0x83, 0xC7, 0x24, 0xF6, 0x40, 0x4A, 0x41, 0x8F, 0x0B, 0xC4, 0x00, 0xEA, 0xB5, 0x00, 0x00, 0x80, 0x00, 0x00, 0x20, 0x05, 0x4D, 0x14, 0xDE, 0x05, 0x6D, 0x14, 0xEE, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x0C, 0x00, 0x42, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x1B, 0x00, 0x2A, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x6F, 0x00, 0xBE, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x7F, 0x00, 0xEB, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x2E, 0x00, 0x47, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x3E, 0x00, 0x4A, 0xF8, 0x74, 0x80, 0x00, 0x80, 0x00, 0x81, 0xC3, 0xF9, 0x6C, 0x80, 0x09, 0x88, 0x00, 0xC1, 0xC2, 0xFC, 0x40, 0x00, 0x29, 0x8A, 0x02, 0x08, 0x00, 0xE0, 0x3A, 0x80, 0x07, 0x80, 0x80, 0x01, 0x24, 0xFA, 0x40, 0x28, 0x67, 0x81, 0x83, 0xC6, 0x00, 0xF6, 0x40, 0x4A, 0x41, 0x8F, 0x0B, 0xC4, 0x00, 0x03, 0x02, 0x02, 0x5F, 0xFC, 0x74, 0x80, 0x23, 0x8B, 0x88, 0x01, 0xC3, 0xEA, 0xBA, 0x80, 0x07, 0x80, 0x82, 0x08, 0x20, 0xE0, 0x35, 0x20, 0x67, 0x81, 0x80, 0x01, 0x24, 0xE0, 0x00, 0x42, 0x49, 0x8F, 0x00, 0x00, 0x00, 0xFC, 0x6C, 0x80, 0x2B, 0x8B, 0x80, 0x01, 0xC2, 0xE8, 0xBA, 0x80, 0x07, 0x80, 0x82, 0x08, 0x20, 0xFA, 0x71, 0x28, 0x67, 0x81, 0x83, 0xC7, 0x24, 0xF6, 0x40, 0x4A, 0x41, 0x8F, 0x0B, 0xC4, 0x00, 0xFC, 0x40, 0x00, 0x23, 0x8B, 0x88, 0x00, 0x00, 0xEA, 0xBA, 0x80, 0x07, 0x80, 0x82, 0x08, 0x20, 0xE0, 0x35, 0x20, 0x67, 0x81, 0x80, 0x01, 0x24, 0xE8, 0x80, 0x42, 0x40, 0x80, 0x02, 0x08, 0x00, 0x05, 0x7C, 0x40, 0x01, 0x05, 0x4C, 0x14, 0xFE, 0x05, 0x6C, 0x15, 0x0E, 0x0C, 0x82, 0x01, 0xD7, 0x0A, 0x21, 0xDC, 0xDC, 0x35, 0x0C, 0x14, 0xDE, 0x05, 0x4C, 0x15, 0x1E, 0x0C, 0x82, 0x01, 0xD8, 0x0A, 0x21, 0xDC, 0xDC, 0x35, 0x0C, 0x14, 0xEE, 0x05, 0x4C, 0x15, 0x2E, 0x0C, 0x82, 0x01, 0xD9, 0x0A, 0x21, 0xDC, 0xDC, 0x35, 0x0C, 0x14, 0xFE, 0x05, 0x4C, 0x15, 0x3E, 0x0C, 0x82, 0x01, 0xDA, 0x0A, 0x21, 0xDC, 0xDC, 0x35, 0x0C, 0x15, 0x0E, 0x05, 0x4C, 0x15, 0x4E, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x0F, 0x00, 0xCD, 0x05, 0x0C, 0x15, 0x1E, 0x00, 0x00, 0xE0, 0x68, 0x00, 0x04, 0x41, 0x00, 0x0A, 0xE1, 0x01, 0xDE, 0x0C, 0x40, 0x01, 0xDB, 0x00, 0x1C, 0x80, 0x40, 0x00, 0x84, 0x08, 0x81, 0x00, 0x8C, 0x18, 0x89, 0x0A, 0xBD, 0xDC, 0x02, 0x00, 0x00, 0x00, 0x2D, 0xC0, 0x00, 0x29, 0xF3, 0x88, 0x00, 0x00, 0x00, 0xC0, 0x00, 0x2D, 0xB0, 0x8A, 0x00, 0x00, 0x00, 0xC0, 0x00, 0x25, 0xC0, 0x81, 0x00, 0x00, 0x00, 0x30, 0xE6, 0x68, 0x0F, 0x0B, 0xE1, 0xFD, 0x20, 0x0B, 0xE1, 0x01, 0xDE, 0x0A, 0xA1, 0xFD, 0x2A, 0x00, 0x84, 0x08, 0x87, 0x00, 0x84, 0x18, 0x8E, 0x00, 0x04, 0x61, 0x8F, 0x0C, 0x82, 0x01, 0xE0, 0x0A, 0x29, 0x01, 0xE1, 0x0A, 0xA9, 0x01, 0xDD, 0x20, 0xC5, 0x52, 0x2A, 0x00, 0x88, 0x10, 0x28, 0x0A, 0x2D, 0x01, 0xE0, 0x0A, 0x31, 0x01, 0xDC, 0x00, 0x20, 0x02, 0x48, 0x00, 0x20, 0x02, 0x64, 0x0B, 0x29, 0x01, 0xE1, 0x0A, 0x35, 0xDC, 0x30, 0x30, 0x85, 0x93, 0x30, 0x00, 0xEE, 0x20, 0x02, 0x00, 0x20, 0x01, 0x10, 0x00, 0x00, 0xD8, 0x60, 0x0A, 0x21, 0xDC, 0xAE, 0x00, 0x94, 0x00, 0x20, 0x00, 0x00, 0xE8, 0x68, 0x00, 0x00, 0x20, 0x80, 0x07, 0x04, 0x40, 0x00, 0x00, 0x84, 0x19, 0x80, 0x00, 0x04, 0x61, 0x98, 0x00, 0x84, 0x00, 0x08, 0x00, 0x04, 0x41, 0x00, 0x0B, 0x2D, 0x01, 0xE0, 0x05, 0x4C, 0x15, 0x6E, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x0F, 0x01, 0x03, 0x05, 0x0C, 0x15, 0x2E, 0x00, 0x00, 0xE0, 0x68, 0x00, 0x04, 0x41, 0x00, 0x0A, 0xE1, 0x01, 0xE5, 0x0C, 0x40, 0x01, 0xE2, 0x00, 0x1C, 0x80, 0x40, 0x00, 0x84, 0x08, 0x81, 0x00, 0x8C, 0x18, 0x89, 0x0A, 0xBD, 0xDC, 0x02, 0x00, 0x00, 0x00, 0x2D, 0xC0, 0x00, 0x29, 0xF3, 0x88, 0x00, 0x00, 0x00, 0xC0, 0x00, 0x2D, 0xB0, 0x8A, 0x00, 0x00, 0x00, 0xC0, 0x00, 0x25, 0xC0, 0x81, 0x00, 0x00, 0x00, 0x30, 0xE6, 0x68, 0x0F, 0x0B, 0xE1, 0xFD, 0x20, 0x0B, 0xE1, 0x01, 0xE5, 0x0A, 0xA1, 0xFD, 0x2A, 0x00, 0x84, 0x08, 0x87, 0x00, 0x84, 0x18, 0x8E, 0x00, 0x04, 0x61, 0x8F, 0x0C, 0x82, 0x01, 0xE7, 0x0A, 0x29, 0x01, 0xE8, 0x0A, 0xA9, 0x01, 0xE4, 0x20, 0xC5, 0x52, 0x2A, 0x00, 0x88, 0x10, 0x28, 0x0A, 0x2D, 0x01, 0xE7, 0x0A, 0x31, 0x01, 0xE3, 0x00, 0x20, 0x02, 0x48, 0x00, 0x20, 0x02, 0x64, 0x0B, 0x29, 0x01, 0xE8, 0x0A, 0x35, 0xDC, 0x30, 0x30, 0x85, 0x93, 0x30, 0x00, 0xEE, 0x20, 0x02, 0x00, 0x20, 0x01, 0x10, 0x00, 0x00, 0xD8, 0x60, 0x0A, 0x21, 0xDC, 0xAE, 0x00, 0x94, 0x00, 0x20, 0x00, 0x00, 0xE8, 0x68, 0x00, 0x00, 0x20, 0x80, 0x07, 0x04, 0x40, 0x00, 0x00, 0x84, 0x19, 0x80, 0x00, 0x04, 0x61, 0x98, 0x00, 0x84, 0x00, 0x08, 0x00, 0x04, 0x41, 0x00, 0x0B, 0x2D, 0x01, 0xE7, 0x05, 0x4C, 0x15, 0x5E, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x0F, 0x01, 0x39, 0x05, 0x0C, 0x15, 0x3E, 0x00, 0x00, 0xE0, 0x68, 0x00, 0x04, 0x41, 0x00, 0x0A, 0xE1, 0x01, 0xEC, 0x0C, 0x40, 0x01, 0xE9, 0x00, 0x1C, 0x80, 0x40, 0x00, 0x84, 0x08, 0x81, 0x00, 0x8C, 0x18, 0x89, 0x0A, 0xBD, 0xDC, 0x02, 0x00, 0x00, 0x00, 0x2D, 0xC0, 0x00, 0x29, 0xF3, 0x88, 0x00, 0x00, 0x00, 0xC0, 0x00, 0x2D, 0xB0, 0x8A, 0x00, 0x00, 0x00, 0xC0, 0x00, 0x25, 0xC0, 0x81, 0x00, 0x00, 0x00, 0x30, 0xE6, 0x68, 0x0F, 0x0B, 0xE1, 0xFD, 0x20, 0x0B, 0xE1, 0x01, 0xEC, 0x0A, 0xA1, 0xFD, 0x2A, 0x00, 0x84, 0x08, 0x87, 0x00, 0x84, 0x18, 0x8E, 0x00, 0x04, 0x61, 0x8F, 0x0C, 0x82, 0x01, 0xEE, 0x0A, 0x29, 0x01, 0xEF, 0x0A, 0xA9, 0x01, 0xEB, 0x20, 0xC5, 0x52, 0x2A, 0x00, 0x88, 0x10, 0x28, 0x0A, 0x2D, 0x01, 0xEE, 0x0A, 0x31, 0x01, 0xEA, 0x00, 0x20, 0x02, 0x48, 0x00, 0x20, 0x02, 0x64, 0x0B, 0x29, 0x01, 0xEF, 0x0A, 0x35, 0xDC, 0x30, 0x30, 0x85, 0x93, 0x30, 0x00, 0xEE, 0x20, 0x02, 0x00, 0x20, 0x01, 0x10, 0x00, 0x00, 0xD8, 0x60, 0x0A, 0x21, 0xDC, 0xAE, 0x00, 0x94, 0x00, 0x20, 0x00, 0x00, 0xE8, 0x68, 0x00, 0x00, 0x20, 0x80, 0x07, 0x04, 0x40, 0x00, 0x00, 0x84, 0x19, 0x80, 0x00, 0x04, 0x61, 0x98, 0x00, 0x84, 0x00, 0x08, 0x00, 0x04, 0x41, 0x00, 0x0B, 0x2D, 0x01, 0xEE, 0x05, 0x4C, 0x15, 0x7E, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x0F, 0x01, 0x6F, 0x05, 0x0C, 0x15, 0x4E, 0x00, 0x00, 0xE0, 0x68, 0x00, 0x04, 0x41, 0x00, 0x0A, 0xE1, 0x01, 0xF3, 0x0C, 0x40, 0x01, 0xF0, 0x00, 0x1C, 0x80, 0x40, 0x00, 0x84, 0x08, 0x81, 0x00, 0x8C, 0x18, 0x89, 0x0A, 0xBD, 0xDC, 0x02, 0x00, 0x00, 0x00, 0x2D, 0xC0, 0x00, 0x29, 0xF3, 0x88, 0x00, 0x00, 0x00, 0xC0, 0x00, 0x2D, 0xB0, 0x8A, 0x00, 0x00, 0x00, 0xC0, 0x00, 0x25, 0xC0, 0x81, 0x00, 0x00, 0x00, 0x30, 0xE6, 0x68, 0x0F, 0x0B, 0xE1, 0xFD, 0x20, 0x0B, 0xE1, 0x01, 0xF3, 0x0A, 0xA1, 0xFD, 0x2A, 0x00, 0x84, 0x08, 0x87, 0x00, 0x84, 0x18, 0x8E, 0x00, 0x04, 0x61, 0x8F, 0x0C, 0x82, 0x01, 0xF5, 0x0A, 0x29, 0x01, 0xF6, 0x0A, 0xA9, 0x01, 0xF2, 0x20, 0xC5, 0x52, 0x2A, 0x00, 0x88, 0x10, 0x28, 0x0A, 0x2D, 0x01, 0xF5, 0x0A, 0x31, 0x01, 0xF1, 0x00, 0x20, 0x02, 0x48, 0x00, 0x20, 0x02, 0x64, 0x0B, 0x29, 0x01, 0xF6, 0x0A, 0x35, 0xDC, 0x30, 0x30, 0x85, 0x93, 0x30, 0x00, 0xEE, 0x20, 0x02, 0x00, 0x20, 0x01, 0x10, 0x00, 0x00, 0xD8, 0x60, 0x0A, 0x21, 0xDC, 0xAE, 0x00, 0x94, 0x00, 0x20, 0x00, 0x00, 0xE8, 0x68, 0x00, 0x00, 0x20, 0x80, 0x07, 0x04, 0x40, 0x00, 0x00, 0x84, 0x19, 0x80, 0x00, 0x04, 0x61, 0x98, 0x00, 0x84, 0x00, 0x08, 0x00, 0x04, 0x41, 0x00, 0x0B, 0x2D, 0x01, 0xF5, 0x05, 0x4C, 0x15, 0x8E, 0x06, 0x00, 0x15, 0x5E, 0x0D, 0x00, 0xFC, 0xE0, 0x06, 0x00, 0x15, 0x6E, 0x0D, 0x00, 0xFC, 0xE1, 0x06, 0x00, 0x15, 0x7E, 0x0D, 0x00, 0xFC, 0xE9, 0x06, 0x00, 0x15, 0x8E, 0x0D, 0x00, 0xFC, 0xE8, 0x08, 0x80, 0x00, 0x5C, 0x08, 0x82, 0x00, 0x60, 0x00, 0x00, 0x20, 0x01, 0x00, 0x00, 0x21, 0x02, 0x09, 0x80, 0x00, 0x5C, 0x09, 0x82, 0x00, 0x60, 0x08, 0x80, 0x00, 0x64, 0x08, 0x82, 0x00, 0x68, 0x00, 0x00, 0x20, 0x01, 0x00, 0x00, 0x21, 0x02, 0x09, 0x80, 0x00, 0x64, 0x09, 0x82, 0x00, 0x68, 0x00, 0x00, 0x00, 0x02, 0x0C, 0x10, 0xF4, 0x60, 0x02, 0xC2, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, </Data>
+        </Program>
+        <Register>
+            <Name>DM0 Data</Name>
+            <Address>0</Address>
+            <AddrIncr>4</AddrIncr>
+            <Size>2028</Size>
+            <Data>0x07, 0xFF, 0xFF, 0xFF, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x10, 0x00, 0x00, 0x00, 0x10, 0x00, 0x00, 0x00, 0x08, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x18, 0x00, 0x00, 0x00, 0x18, 0x00, 0x00, 0x00, 0x44, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x64, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x64, 0x00, 0x00, 0x00, 0x64, 0x00, 0x00, 0x00, 0x5C, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0xFF, 0xF9, 0x72, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0xFF, 0xF9, 0x72, 0x00, 0x00, 0x00, 0x18, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x77, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x02, 0x8F, 0x5C, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x77, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x02, 0x8F, 0x5C, 0x00, 0x00, 0x00, 0x00, 0x00, 0x0A, 0x0E, 0x34, 0x00, 0x14, 0x1C, 0x68, 0x00, 0x0A, 0x0E, 0x34, 0xFF, 0x79, 0xFA, 0x48, 0x01, 0x5D, 0xCC, 0xE7, 0x00, 0x0A, 0x0E, 0x34, 0x00, 0x14, 0x1C, 0x68, 0x00, 0x0A, 0x0E, 0x34, 0xFF, 0x79, 0xFA, 0x48, 0x01, 0x5D, 0xCC, 0xE7, 0x00, 0x0A, 0x0E, 0x34, 0x00, 0x14, 0x1C, 0x68, 0x00, 0x0A, 0x0E, 0x34, 0xFF, 0x79, 0xFA, 0x48, 0x01, 0x5D, 0xCC, 0xE7, 0x00, 0x0A, 0x0E, 0x34, 0x00, 0x14, 0x1C, 0x68, 0x00, 0x0A, 0x0E, 0x34, 0xFF, 0x79, 0xFA, 0x48, 0x01, 0x5D, 0xCC, 0xE7, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0xAB, 0x18, 0x96, 0x00, 0x00, 0x20, 0x8A, 0x00, 0x00, 0x00, 0x00, 0x00, 0x39, 0x4F, 0xAF, 0x00, 0x00, 0x20, 0x8A, 0x00, 0xFF, 0x29, 0x64, 0xFE, 0x01, 0xAD, 0x39, 0x00, 0xFF, 0x29, 0x64, 0xFF, 0x01, 0xAB, 0x88, 0x01, 0xFE, 0x51, 0x16, 0x00, 0xFC, 0x55, 0xA1, 0xFE, 0x02, 0xDC, 0x53, 0x01, 0x00, 0xD4, 0x54, 0xFF, 0x02, 0xD6, 0x0B, 0x01, 0xFD, 0x23, 0xAD, 0x00, 0xFF, 0x24, 0x48, 0xFE, 0x01, 0x18, 0xA4, 0x00, 0xFF, 0xCE, 0x49, 0xFF, 0x01, 0x0D, 0x6F, 0x01, 0xFE, 0xE7, 0x5C, 0x00, 0xF9, 0x1E, 0x5D, 0xFE, 0x08, 0x9E, 0x56, 0x01, 0x01, 0x2D, 0x3C, 0xFF, 0x05, 0xB4, 0x67, 0x01, 0xF7, 0x61, 0xAA, 0x00, 0xC5, 0x3E, 0x0E, 0xFE, 0x86, 0x1D, 0x38, 0x00, 0xF5, 0xF3, 0xDE, 0xFF, 0x44, 0xCE, 0x14, 0x01, 0x79, 0xE2, 0xC8, 0x00, 0xA1, 0x75, 0x94, 0xFF, 0x64, 0x64, 0x69, 0x00, 0xF5, 0x29, 0xD7, 0xFF, 0x69, 0x60, 0x96, 0x00, 0x9B, 0x9B, 0x97, 0x00, 0x37, 0x26, 0xF3, 0x00, 0x9B, 0x93, 0x7A, 0x01, 0x00, 0x00, 0x00, 0xFF, 0xC8, 0xD9, 0x0D, 0xFF, 0x64, 0x6C, 0x86, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0xD2, 0x02, 0x8F, 0x00, 0x94, 0xAC, 0xFA, 0x00, 0x69, 0x41, 0x1C, 0x00, 0x4A, 0x83, 0xAD, 0x00, 0x34, 0xC0, 0x8B, 0x00, 0x25, 0x58, 0x7C, 0x00, 0x1A, 0x70, 0x4E, 0x00, 0x12, 0xB7, 0x98, 0x00, 0x0D, 0x40, 0x30, 0x00, 0x09, 0x5E, 0xA4, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0xD2, 0x02, 0x8F, 0x00, 0x94, 0xAC, 0xFA, 0x00, 0x69, 0x41, 0x1C, 0x00, 0x4A, 0x83, 0xAD, 0x00, 0x34, 0xC0, 0x8B, 0x00, 0x25, 0x58, 0x7C, 0x00, 0x1A, 0x70, 0x4E, 0x00, 0x12, 0xB7, 0x98, 0x00, 0x0D, 0x40, 0x30, 0x00, 0x09, 0x5E, 0xA4, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0xC2, 0x32, 0x24, 0x00, 0x89, 0x7A, 0xEB, 0x00, 0x61, 0x54, 0x18, 0x00, 0x44, 0xE7, 0x3E, 0x00, 0x30, 0xC7, 0xA1, 0x00, 0x22, 0x88, 0x90, 0x00, 0x18, 0x72, 0xA4, 0x00, 0x11, 0x4E, 0xC7, 0x00, 0x0C, 0x40, 0xC0, 0x00, 0x08, 0xAC, 0xA6, 0x00, 0x06, 0x24, 0x19, 0x00, 0x04, 0x57, 0xA4, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0xC2, 0x32, 0x24, 0x00, 0x89, 0x7A, 0xEB, 0x00, 0x61, 0x54, 0x18, 0x00, 0x44, 0xE7, 0x3E, 0x00, 0x30, 0xC7, 0xA1, 0x00, 0x22, 0x88, 0x90, 0x00, 0x18, 0x72, 0xA4, 0x00, 0x11, 0x4E, 0xC7, 0x00, 0x0C, 0x40, 0xC0, 0x00, 0x08, 0xAC, 0xA6, 0x00, 0x06, 0x24, 0x19, 0x00, 0x04, 0x57, 0xA4, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0xFF, 0x77, 0x9C, 0x00, 0x00, 0x88, 0x64, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0xFF, 0x77, 0x9C, 0x00, 0x00, 0x88, 0x64, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0xFF, 0xE4, 0xB3, 0x00, 0x00, 0x1B, 0x4D, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0xFF, 0xE4, 0xB3, 0x00, 0x00, 0x1B, 0x4D, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0xFF, 0xE4, 0xB3, 0x00, 0x00, 0x1B, 0x4D, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0xFF, 0x77, 0x9C, 0x00, 0x00, 0x88, 0x64, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0xFF, 0x77, 0x9C, 0x00, 0x00, 0x88, 0x64, 0x00, 0x00, 0xF6, 0x00, 0x00, 0x00, 0xF5, 0x80, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x0A, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x26, 0x0D, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x24, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x26, 0x0D, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x24, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x26, 0x0D, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x24, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x26, 0x0D, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x24, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>DM1 Data</Name>
+            <Address>24768</Address>
+            <AddrIncr>4</AddrIncr>
+            <Size>248</Size>
+            <Data>0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x20, 0x0B, 0xFF, 0xFF, 0xFF, 0xFF, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x20, 0x0B, 0xFF, 0xFF, 0xFF, 0xFF, 0x00, 0x00, 0x00, 0x00, 0x00, 0xB8, 0xF4, 0xA8, 0xFE, 0x8E, 0x16, 0xB1, 0x00, 0xB8, 0xF4, 0xA8, 0xFF, 0x79, 0xFA, 0x48, 0x01, 0x5D, 0xCC, 0xE7, 0x00, 0xB8, 0xF4, 0xA8, 0xFE, 0x8E, 0x16, 0xB1, 0x00, 0xB8, 0xF4, 0xA8, 0xFF, 0x79, 0xFA, 0x48, 0x01, 0x5D, 0xCC, 0xE7, 0x00, 0xB8, 0xF4, 0xA8, 0xFE, 0x8E, 0x16, 0xB1, 0x00, 0xB8, 0xF4, 0xA8, 0xFF, 0x79, 0xFA, 0x48, 0x01, 0x5D, 0xCC, 0xE7, 0x00, 0xB8, 0xF4, 0xA8, 0xFE, 0x8E, 0x16, 0xB1, 0x00, 0xB8, 0xF4, 0xA8, 0xFF, 0x79, 0xFA, 0x48, 0x01, 0x5D, 0xCC, 0xE7, 0x00, 0xFF, 0x29, 0x64, 0xFE, 0x01, 0xAD, 0x39, 0x00, 0xFF, 0x29, 0x64, 0xFF, 0x01, 0xAB, 0x88, 0x01, 0xFE, 0x51, 0x16, 0x00, 0xF7, 0xDC, 0x0A, 0xFE, 0x0C, 0xC1, 0x2C, 0x00, 0xFB, 0xC5, 0x65, 0xFF, 0x0C, 0x5E, 0x90, 0x01, 0xF3, 0x3E, 0xD4, 0x00, 0xE6, 0xA5, 0xF9, 0xFE, 0x61, 0xD8, 0x6F, 0x00, 0xF7, 0x93, 0x80, 0xFF, 0x21, 0xC6, 0x87, 0x01, 0x9E, 0x27, 0x91, 0x00, 0xD3, 0xE6, 0x3C, 0xFE, 0xE7, 0x1C, 0x3A, 0x01, 0x09, 0xFA, 0x94, 0xFF, 0x22, 0x1F, 0x30, 0x01, 0x18, 0xE3, 0xC6, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.KILL_CORE</Name>
+            <Address>62467</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.START_ADDRESS</Name>
+            <Address>62468</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.START_PULSE</Name>
+            <Address>62465</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.START_CORE</Name>
+            <Address>62466</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.START_CORE</Name>
+            <Address>62466</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x01, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.Start Delay</Name>
+            <Address>0</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x01, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.HIBERNATE</Name>
+            <Address>62464</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Module>
+            <CellName>SPDIF lock detect.RegRead1</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>RegisterReadAlg1</DetailedName>
+                <Description>Register Read</Description>
+                <ModuleParameter>
+                    <Name>RegisterReadAlg1address0</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>449</Address>
+                    <Value>62976</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0xF6, 0x00, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>SPDIF lock detect.RegRead2</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>RegisterReadAlg2</DetailedName>
+                <Description>Register Read</Description>
+                <ModuleParameter>
+                    <Name>RegisterReadAlg2address0</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>450</Address>
+                    <Value>62848</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0xF5, 0x80, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>SPDIF lock detect.Logic1</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>LogicAlgBitSigma3001</DetailedName>
+                <Description>LOGICbit( 1 ) : Type[ 0 ];</Description>
+                <ModuleParameter>
+                    <Name>LogicAlgBitSigma3001AllOnes</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>0</Address>
+                    <Value>134217727</Value>
+                    <Size>4</Size>
+                    <Data>0x07, 0xFF, 0xFF, 0xFF, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>SPDIF lock detect.DC1</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>DCInpAlg145X2</DetailedName>
+                <Description>DC-Input( 1 ) : FormatL[ 24 ],FormatM[ 8 ],DC[ 5.96E-08 ],IsDBSelected[ False ];</Description>
+                <ModuleParameter>
+                    <Name>DCInpAlg145X2value</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>451</Address>
+                    <Value>5.96046447753906E-08</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x00, 0x01, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>SPDIF lock detect.Slew vol 1</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>ExternalGainAlgSlew145X1</DetailedName>
+                <Description>Gain (HW slew)( 1 ) : Type1[ 2 ],Type2[ 3 ],Index1[ 8 ],Index2[ 0 ];</Description>
+                <ModuleParameter>
+                    <Name>ExternalGainAlgSlew145X1slew_mode</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24769</Address>
+                    <Value>8203</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x20, 0x0B, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>SPDIF lock detect.Slew vol 1_2</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>ExternalGainAlgSlew145X2</DetailedName>
+                <Description>Gain (HW slew)( 1 ) : Type1[ 2 ],Type2[ 3 ],Index1[ 8 ],Index2[ 0 ];</Description>
+                <ModuleParameter>
+                    <Name>ExternalGainAlgSlew145X2slew_mode</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24773</Address>
+                    <Value>8203</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x20, 0x0B, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>SPDIF lock detect.ReadBack3</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>ReadBackAlgNewSigma3001</DetailedName>
+                <Description>Data/Register Readback</Description>
+                <ModuleParameter>
+                    <Name>ReadBackAlgNewSigma3001Value</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>115</Address>
+                    <Value>0</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>SPDIF lock detect.ReadBack4</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>ReadBackAlgNewSigma3002</DetailedName>
+                <Description>Data/Register Readback</Description>
+                <ModuleParameter>
+                    <Name>ReadBackAlgNewSigma3002Value</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>116</Address>
+                    <Value>0</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>SPDIF lock detect.Logic3</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>LogicAlgBitSigma3002</DetailedName>
+                <Description>LOGICbit( 1 ) : Type[ 0 ];</Description>
+                <ModuleParameter>
+                    <Name>LogicAlgBitSigma3002AllOnes</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>0</Address>
+                    <Value>134217727</Value>
+                    <Size>4</Size>
+                    <Data>0x07, 0xFF, 0xFF, 0xFF, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>SPDIF lock detect.Shift1</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>BitShiftADAU145XAlg1</DetailedName>
+                <Description>BitShift( 1 ) : Bits[ 24 ],Type[ 1 ];</Description>
+                <ModuleParameter>
+                    <Name>BitShiftADAU145XAlg1shift_bits</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>123</Address>
+                    <Value>24</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x00, 0x18, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>SPDIF lock detect.Logic4</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>LogicAlgBitSigma3003</DetailedName>
+                <Description>LOGICbit( 1 ) : Type[ 0 ];</Description>
+                <ModuleParameter>
+                    <Name>LogicAlgBitSigma3003AllOnes</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>0</Address>
+                    <Value>134217727</Value>
+                    <Size>4</Size>
+                    <Data>0x07, 0xFF, 0xFF, 0xFF, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>SPDIF lock detect.DC3</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>DCInpAlg145X3</DetailedName>
+                <Description>DC-Input( 1 ) : FormatL[ 24 ],FormatM[ 8 ],DC[ 5.96E-08 ],IsDBSelected[ False ];</Description>
+                <ModuleParameter>
+                    <Name>DCInpAlg145X3value</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>452</Address>
+                    <Value>5.96046447753906E-08</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x00, 0x01, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>SPDIF lock detect.DCB1</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>DCBlockAlgDblPrecS3001</DetailedName>
+                <Description>DC Blocking</Description>
+                <ModuleParameter>
+                    <Name>DCBlockAlgDblPrecS3001pole</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>119</Address>
+                    <Value>0.999899983406067</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xFF, 0xF9, 0x72, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>SPDIF lock detect.DCB2</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>DCBlockAlgDblPrecS3002</DetailedName>
+                <Description>DC Blocking</Description>
+                <ModuleParameter>
+                    <Name>DCBlockAlgDblPrecS3002pole</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>122</Address>
+                    <Value>0.999899983406067</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xFF, 0xF9, 0x72, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>Mute1</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>MuteNoSlewADAU145XAlg1</DetailedName>
+                <Description>Mute (no-slew)( 1 ) : Mute[ False ];</Description>
+                <ModuleParameter>
+                    <Name>MuteNoSlewADAU145XAlg1mute</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>454</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x00, 0x01, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>Mute2</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>MuteNoSlewADAU145XAlg2</DetailedName>
+                <Description>Mute (no-slew)( 1 ) : Mute[ False ];</Description>
+                <ModuleParameter>
+                    <Name>MuteNoSlewADAU145XAlg2mute</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>455</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x00, 0x01, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>Mute3</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>MuteNoSlewADAU145XAlg3</DetailedName>
+                <Description>Mute (no-slew)( 1 ) : Mute[ False ];</Description>
+                <ModuleParameter>
+                    <Name>MuteNoSlewADAU145XAlg3mute</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>460</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x00, 0x01, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>Mute4</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>MuteNoSlewADAU145XAlg4</DetailedName>
+                <Description>Mute (no-slew)( 1 ) : Mute[ False ];</Description>
+                <ModuleParameter>
+                    <Name>MuteNoSlewADAU145XAlg4mute</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>463</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x00, 0x01, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>Single 1</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>GainAlgNS145X1</DetailedName>
+                <Description>Gain (no-slew)( 1 ) : Gain`max[ 0 ],Gain`min[ -80 ],Gain`res[ 40 ],Gain[ 0 ];</Description>
+                <ModuleParameter>
+                    <Name>GainAlgNS145X1gain</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>464</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>CH1</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>GainAlgNS145X2</DetailedName>
+                <Description>Gain (no-slew)( 1 ) : Gain`max[ 0 ],Gain`min[ -80 ],Gain`res[ 40 ],Gain[ 0 ];</Description>
+                <ModuleParameter>
+                    <Name>GainAlgNS145X2gain</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>467</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>Single 3</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>GainAlgNS145X3</DetailedName>
+                <Description>Gain (no-slew)( 1 ) : Gain`max[ 0 ],Gain`min[ -80 ],Gain`res[ 40 ],Gain[ 0 ];</Description>
+                <ModuleParameter>
+                    <Name>GainAlgNS145X3gain</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>465</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>Single 4</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>GainAlgNS145X4</DetailedName>
+                <Description>Gain (no-slew)( 1 ) : Gain`max[ 0 ],Gain`min[ -80 ],Gain`res[ 40 ],Gain[ 0 ];</Description>
+                <ModuleParameter>
+                    <Name>GainAlgNS145X4gain</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>466</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>Version</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>DCInpAlg145X1</DetailedName>
+                <Description>DC-Input( 1 ) : FormatL[ 24 ],FormatM[ 8 ],DC[ 10 ],IsDBSelected[ True ];</Description>
+                <ModuleParameter>
+                    <Name>DCInpAlg145X1value</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>453</Address>
+                    <Value>10</Value>
+                    <Size>4</Size>
+                    <Data>0x0A, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>Mute5</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>MuteNoSlewADAU145XAlg5</DetailedName>
+                <Description>Mute (no-slew)( 1 ) : Mute[ False ];</Description>
+                <ModuleParameter>
+                    <Name>MuteNoSlewADAU145XAlg5mute</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>461</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x00, 0x01, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>Mute6</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>MuteNoSlewADAU145XAlg6</DetailedName>
+                <Description>Mute (no-slew)( 1 ) : Mute[ False ];</Description>
+                <ModuleParameter>
+                    <Name>MuteNoSlewADAU145XAlg6mute</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>462</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x00, 0x01, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>Aux_L</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>MuteNoSlewADAU145XAlg7</DetailedName>
+                <Description>Mute (no-slew)( 1 ) : Mute[ False ];</Description>
+                <ModuleParameter>
+                    <Name>MuteNoSlewADAU145XAlg7mute</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>456</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x00, 0x01, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>Aux_R</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>MuteNoSlewADAU145XAlg8</DetailedName>
+                <Description>Mute (no-slew)( 1 ) : Mute[ False ];</Description>
+                <ModuleParameter>
+                    <Name>MuteNoSlewADAU145XAlg8mute</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>457</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x00, 0x01, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>NxM Mixer1</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>NxNMixS3004p6Alg1</DetailedName>
+                <Description>NxM Mixer( 64 ) : Gain`max0_0[ 6 ],Gain`min0_0[ -30 ],Gain`res0_0[ 36 ],Gain0_0[ 0 ];Gain`max0_1[ 6 ],Gain`min0_1[ -30 ],Gain`res0_1[ 36 ],Gain0_1[ 0 ];Gain`max0_2[ 6 ],Gain`min0_2[ -30 ],Gain`res0_2[ 36 ],Gain0_2[ 0 ];Gain`max0_3[ 6 ],Gain`min0_3[ -30 ],Gain`res0_3[ 36 ],Gain0_3[ 0 ];Gain`max0_4[ 6 ],Gain`min0_4[ -30 ],Gain`res0_4[ 36 ],Gain0_4[ 0 ];Gain`max0_5[ 6 ],Gain`min0_5[ -30 ],Gain`res0_5[ 36 ],Gain0_5[ 0 ];Gain`max0_6[ 6 ],Gain`min0_6[ -30 ],Gain`res0_6[ 36 ],Gain0_6[ 0 ];Gain`max0_7[ 6 ],Gain`min0_7[ -30 ],Gain`res0_7[ 36 ],Gain0_7[ 0 ];Gain`max0_8[ 6 ],Gain`min0_8[ -30 ],Gain`res0_8[ 36 ],Gain0_8[ 0 ];Gain`max0_9[ 6 ],Gain`min0_9[ -30 ],Gain`res0_9[ 36 ],Gain0_9[ 0 ];Gain`max0_10[ 6 ],Gain`min0_10[ -30 ],Gain`res0_10[ 36 ],Gain0_10[ 0 ];Gain`max0_11[ 6 ],Gain`min0_11[ -30 ],Gain`res0_11[ 36 ],Gain0_11[ 0 ];Gain`max0_12[ 6 ],Gain`min0_12[ -30 ],Gain`res0_12[ 36 ],Gain0_12[ 0 ];Gain`max0_13[ 6 ],Gain`min0_13[ -30 ],Gain`res0_13[ 36 ],Gain0_13[ 0 ];Gain`max0_14[ 6 ],Gain`min0_14[ -30 ],Gain`res0_14[ 36 ],Gain0_14[ 0 ];Gain`max0_15[ 6 ],Gain`min0_15[ -30 ],Gain`res0_15[ 36 ],Gain0_15[ 0 ];Gain`max0_16[ 6 ],Gain`min0_16[ -30 ],Gain`res0_16[ 36 ],Gain0_16[ 0 ];Gain`max0_17[ 6 ],Gain`min0_17[ -30 ],Gain`res0_17[ 36 ],Gain0_17[ 0 ];Gain`max0_18[ 6 ],Gain`min0_18[ -30 ],Gain`res0_18[ 36 ],Gain0_18[ 0 ];Gain`max0_19[ 6 ],Gain`min0_19[ -30 ],Gain`res0_19[ 36 ],Gain0_19[ 0 ];Gain`max0_20[ 6 ],Gain`min0_20[ -30 ],Gain`res0_20[ 36 ],Gain0_20[ 0 ];Gain`max0_21[ 6 ],Gain`min0_21[ -30 ],Gain`res0_21[ 36 ],Gain0_21[ 0 ];Gain`max0_22[ 6 ],Gain`min0_22[ -30 ],Gain`res0_22[ 36 ],Gain0_22[ 0 ];Gain`max0_23[ 6 ],Gain`min0_23[ -30 ],Gain`res0_23[ 36 ],Gain0_23[ 0 ];Gain`max0_24[ 6 ],Gain`min0_24[ -30 ],Gain`res0_24[ 36 ],Gain0_24[ 0 ];Gain`max0_25[ 6 ],Gain`min0_25[ -30 ],Gain`res0_25[ 36 ],Gain0_25[ 0 ];Gain`max0_26[ 6 ],Gain`min0_26[ -30 ],Gain`res0_26[ 36 ],Gain0_26[ 0 ];Gain`max0_27[ 6 ],Gain`min0_27[ -30 ],Gain`res0_27[ 36 ],Gain0_27[ 0 ];Gain`max0_28[ 6 ],Gain`min0_28[ -30 ],Gain`res0_28[ 36 ],Gain0_28[ 0 ];Gain`max0_29[ 6 ],Gain`min0_29[ -30 ],Gain`res0_29[ 36 ],Gain0_29[ 0 ];Gain`max0_30[ 6 ],Gain`min0_30[ -30 ],Gain`res0_30[ 36 ],Gain0_30[ 0 ];Gain`max0_31[ 6 ],Gain`min0_31[ -30 ],Gain`res0_31[ 36 ],Gain0_31[ 0 ];Gain`max0_32[ 6 ],Gain`min0_32[ -30 ],Gain`res0_32[ 36 ],Gain0_32[ 0 ];Gain`max0_33[ 6 ],Gain`min0_33[ -30 ],Gain`res0_33[ 36 ],Gain0_33[ 0 ];Gain`max0_34[ 6 ],Gain`min0_34[ -30 ],Gain`res0_34[ 36 ],Gain0_34[ 0 ];Gain`max0_35[ 6 ],Gain`min0_35[ -30 ],Gain`res0_35[ 36 ],Gain0_35[ 0 ];Gain`max0_36[ 6 ],Gain`min0_36[ -30 ],Gain`res0_36[ 36 ],Gain0_36[ 0 ];Gain`max0_37[ 6 ],Gain`min0_37[ -30 ],Gain`res0_37[ 36 ],Gain0_37[ 0 ];Gain`max0_38[ 6 ],Gain`min0_38[ -30 ],Gain`res0_38[ 36 ],Gain0_38[ 0 ];Gain`max0_39[ 6 ],Gain`min0_39[ -30 ],Gain`res0_39[ 36 ],Gain0_39[ 0 ];Gain`max0_40[ 6 ],Gain`min0_40[ -30 ],Gain`res0_40[ 36 ],Gain0_40[ 0 ];Gain`max0_41[ 6 ],Gain`min0_41[ -30 ],Gain`res0_41[ 36 ],Gain0_41[ 0 ];Gain`max0_42[ 6 ],Gain`min0_42[ -30 ],Gain`res0_42[ 36 ],Gain0_42[ 0 ];Gain`max0_43[ 6 ],Gain`min0_43[ -30 ],Gain`res0_43[ 36 ],Gain0_43[ 0 ];Gain`max0_44[ 6 ],Gain`min0_44[ -30 ],Gain`res0_44[ 36 ],Gain0_44[ 0 ];Gain`max0_45[ 6 ],Gain`min0_45[ -30 ],Gain`res0_45[ 36 ],Gain0_45[ 0 ];Gain`max0_46[ 6 ],Gain`min0_46[ -30 ],Gain`res0_46[ 36 ],Gain0_46[ 0 ];Gain`max0_47[ 6 ],Gain`min0_47[ -30 ],Gain`res0_47[ 36 ],Gain0_47[ 0 ];Gain`max0_48[ 6 ],Gain`min0_48[ -30 ],Gain`res0_48[ 36 ],Gain0_48[ 0 ];Gain`max0_49[ 6 ],Gain`min0_49[ -30 ],Gain`res0_49[ 36 ],Gain0_49[ 0 ];Gain`max0_50[ 6 ],Gain`min0_50[ -30 ],Gain`res0_50[ 36 ],Gain0_50[ 0 ];Gain`max0_51[ 6 ],Gain`min0_51[ -30 ],Gain`res0_51[ 36 ],Gain0_51[ 0 ];Gain`max0_52[ 6 ],Gain`min0_52[ -30 ],Gain`res0_52[ 36 ],Gain0_52[ 0 ];Gain`max0_53[ 6 ],Gain`min0_53[ -30 ],Gain`res0_53[ 36 ],Gain0_53[ 0 ];Gain`max0_54[ 6 ],Gain`min0_54[ -30 ],Gain`res0_54[ 36 ],Gain0_54[ 0 ];Gain`max0_55[ 6 ],Gain`min0_55[ -30 ],Gain`res0_55[ 36 ],Gain0_55[ 0 ];Gain`max0_56[ 6 ],Gain`min0_56[ -30 ],Gain`res0_56[ 36 ],Gain0_56[ 0 ];Gain`max0_57[ 6 ],Gain`min0_57[ -30 ],Gain`res0_57[ 36 ],Gain0_57[ 0 ];Gain`max0_58[ 6 ],Gain`min0_58[ -30 ],Gain`res0_58[ 36 ],Gain0_58[ 0 ];Gain`max0_59[ 6 ],Gain`min0_59[ -30 ],Gain`res0_59[ 36 ],Gain0_59[ 0 ];Gain`max0_60[ 6 ],Gain`min0_60[ -30 ],Gain`res0_60[ 36 ],Gain0_60[ 0 ];Gain`max0_61[ 6 ],Gain`min0_61[ -30 ],Gain`res0_61[ 36 ],Gain0_61[ 0 ];Gain`max0_62[ 6 ],Gain`min0_62[ -30 ],Gain`res0_62[ 36 ],Gain0_62[ 0 ];Gain`max0_63[ 6 ],Gain`min0_63[ -30 ],Gain`res0_63[ 36 ],Gain0_63[ 0 ];</Description>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_00_00</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>124</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_00_01</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>125</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_00_02</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>126</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_00_03</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>127</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_00_04</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>128</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>NxM Mixer2</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>NxNMixS3004p6Alg2</DetailedName>
+                <Description>NxM Mixer( 64 ) : Gain`max0_0[ 6 ],Gain`min0_0[ -30 ],Gain`res0_0[ 36 ],Gain0_0[ 0 ];Gain`max0_1[ 6 ],Gain`min0_1[ -30 ],Gain`res0_1[ 36 ],Gain0_1[ 0 ];Gain`max0_2[ 6 ],Gain`min0_2[ -30 ],Gain`res0_2[ 36 ],Gain0_2[ 0 ];Gain`max0_3[ 6 ],Gain`min0_3[ -30 ],Gain`res0_3[ 36 ],Gain0_3[ 0 ];Gain`max0_4[ 6 ],Gain`min0_4[ -30 ],Gain`res0_4[ 36 ],Gain0_4[ 0 ];Gain`max0_5[ 6 ],Gain`min0_5[ -30 ],Gain`res0_5[ 36 ],Gain0_5[ 0 ];Gain`max0_6[ 6 ],Gain`min0_6[ -30 ],Gain`res0_6[ 36 ],Gain0_6[ 0 ];Gain`max0_7[ 6 ],Gain`min0_7[ -30 ],Gain`res0_7[ 36 ],Gain0_7[ 0 ];Gain`max0_8[ 6 ],Gain`min0_8[ -30 ],Gain`res0_8[ 36 ],Gain0_8[ 0 ];Gain`max0_9[ 6 ],Gain`min0_9[ -30 ],Gain`res0_9[ 36 ],Gain0_9[ 0 ];Gain`max0_10[ 6 ],Gain`min0_10[ -30 ],Gain`res0_10[ 36 ],Gain0_10[ 0 ];Gain`max0_11[ 6 ],Gain`min0_11[ -30 ],Gain`res0_11[ 36 ],Gain0_11[ 0 ];Gain`max0_12[ 6 ],Gain`min0_12[ -30 ],Gain`res0_12[ 36 ],Gain0_12[ 0 ];Gain`max0_13[ 6 ],Gain`min0_13[ -30 ],Gain`res0_13[ 36 ],Gain0_13[ 0 ];Gain`max0_14[ 6 ],Gain`min0_14[ -30 ],Gain`res0_14[ 36 ],Gain0_14[ 0 ];Gain`max0_15[ 6 ],Gain`min0_15[ -30 ],Gain`res0_15[ 36 ],Gain0_15[ 0 ];Gain`max0_16[ 6 ],Gain`min0_16[ -30 ],Gain`res0_16[ 36 ],Gain0_16[ 0 ];Gain`max0_17[ 6 ],Gain`min0_17[ -30 ],Gain`res0_17[ 36 ],Gain0_17[ 0 ];Gain`max0_18[ 6 ],Gain`min0_18[ -30 ],Gain`res0_18[ 36 ],Gain0_18[ 0 ];Gain`max0_19[ 6 ],Gain`min0_19[ -30 ],Gain`res0_19[ 36 ],Gain0_19[ 0 ];Gain`max0_20[ 6 ],Gain`min0_20[ -30 ],Gain`res0_20[ 36 ],Gain0_20[ 0 ];Gain`max0_21[ 6 ],Gain`min0_21[ -30 ],Gain`res0_21[ 36 ],Gain0_21[ 0 ];Gain`max0_22[ 6 ],Gain`min0_22[ -30 ],Gain`res0_22[ 36 ],Gain0_22[ 0 ];Gain`max0_23[ 6 ],Gain`min0_23[ -30 ],Gain`res0_23[ 36 ],Gain0_23[ 0 ];Gain`max0_24[ 6 ],Gain`min0_24[ -30 ],Gain`res0_24[ 36 ],Gain0_24[ 0 ];Gain`max0_25[ 6 ],Gain`min0_25[ -30 ],Gain`res0_25[ 36 ],Gain0_25[ 0 ];Gain`max0_26[ 6 ],Gain`min0_26[ -30 ],Gain`res0_26[ 36 ],Gain0_26[ 0 ];Gain`max0_27[ 6 ],Gain`min0_27[ -30 ],Gain`res0_27[ 36 ],Gain0_27[ 0 ];Gain`max0_28[ 6 ],Gain`min0_28[ -30 ],Gain`res0_28[ 36 ],Gain0_28[ 0 ];Gain`max0_29[ 6 ],Gain`min0_29[ -30 ],Gain`res0_29[ 36 ],Gain0_29[ 0 ];Gain`max0_30[ 6 ],Gain`min0_30[ -30 ],Gain`res0_30[ 36 ],Gain0_30[ 0 ];Gain`max0_31[ 6 ],Gain`min0_31[ -30 ],Gain`res0_31[ 36 ],Gain0_31[ 0 ];Gain`max0_32[ 6 ],Gain`min0_32[ -30 ],Gain`res0_32[ 36 ],Gain0_32[ 0 ];Gain`max0_33[ 6 ],Gain`min0_33[ -30 ],Gain`res0_33[ 36 ],Gain0_33[ 0 ];Gain`max0_34[ 6 ],Gain`min0_34[ -30 ],Gain`res0_34[ 36 ],Gain0_34[ 0 ];Gain`max0_35[ 6 ],Gain`min0_35[ -30 ],Gain`res0_35[ 36 ],Gain0_35[ 0 ];Gain`max0_36[ 6 ],Gain`min0_36[ -30 ],Gain`res0_36[ 36 ],Gain0_36[ 0 ];Gain`max0_37[ 6 ],Gain`min0_37[ -30 ],Gain`res0_37[ 36 ],Gain0_37[ 0 ];Gain`max0_38[ 6 ],Gain`min0_38[ -30 ],Gain`res0_38[ 36 ],Gain0_38[ 0 ];Gain`max0_39[ 6 ],Gain`min0_39[ -30 ],Gain`res0_39[ 36 ],Gain0_39[ 0 ];Gain`max0_40[ 6 ],Gain`min0_40[ -30 ],Gain`res0_40[ 36 ],Gain0_40[ 0 ];Gain`max0_41[ 6 ],Gain`min0_41[ -30 ],Gain`res0_41[ 36 ],Gain0_41[ 0 ];Gain`max0_42[ 6 ],Gain`min0_42[ -30 ],Gain`res0_42[ 36 ],Gain0_42[ 0 ];Gain`max0_43[ 6 ],Gain`min0_43[ -30 ],Gain`res0_43[ 36 ],Gain0_43[ 0 ];Gain`max0_44[ 6 ],Gain`min0_44[ -30 ],Gain`res0_44[ 36 ],Gain0_44[ 0 ];Gain`max0_45[ 6 ],Gain`min0_45[ -30 ],Gain`res0_45[ 36 ],Gain0_45[ 0 ];Gain`max0_46[ 6 ],Gain`min0_46[ -30 ],Gain`res0_46[ 36 ],Gain0_46[ 0 ];Gain`max0_47[ 6 ],Gain`min0_47[ -30 ],Gain`res0_47[ 36 ],Gain0_47[ 0 ];Gain`max0_48[ 6 ],Gain`min0_48[ -30 ],Gain`res0_48[ 36 ],Gain0_48[ 0 ];Gain`max0_49[ 6 ],Gain`min0_49[ -30 ],Gain`res0_49[ 36 ],Gain0_49[ 0 ];Gain`max0_50[ 6 ],Gain`min0_50[ -30 ],Gain`res0_50[ 36 ],Gain0_50[ 0 ];Gain`max0_51[ 6 ],Gain`min0_51[ -30 ],Gain`res0_51[ 36 ],Gain0_51[ 0 ];Gain`max0_52[ 6 ],Gain`min0_52[ -30 ],Gain`res0_52[ 36 ],Gain0_52[ 0 ];Gain`max0_53[ 6 ],Gain`min0_53[ -30 ],Gain`res0_53[ 36 ],Gain0_53[ 0 ];Gain`max0_54[ 6 ],Gain`min0_54[ -30 ],Gain`res0_54[ 36 ],Gain0_54[ 0 ];Gain`max0_55[ 6 ],Gain`min0_55[ -30 ],Gain`res0_55[ 36 ],Gain0_55[ 0 ];Gain`max0_56[ 6 ],Gain`min0_56[ -30 ],Gain`res0_56[ 36 ],Gain0_56[ 0 ];Gain`max0_57[ 6 ],Gain`min0_57[ -30 ],Gain`res0_57[ 36 ],Gain0_57[ 0 ];Gain`max0_58[ 6 ],Gain`min0_58[ -30 ],Gain`res0_58[ 36 ],Gain0_58[ 0 ];Gain`max0_59[ 6 ],Gain`min0_59[ -30 ],Gain`res0_59[ 36 ],Gain0_59[ 0 ];Gain`max0_60[ 6 ],Gain`min0_60[ -30 ],Gain`res0_60[ 36 ],Gain0_60[ 0 ];Gain`max0_61[ 6 ],Gain`min0_61[ -30 ],Gain`res0_61[ 36 ],Gain0_61[ 0 ];Gain`max0_62[ 6 ],Gain`min0_62[ -30 ],Gain`res0_62[ 36 ],Gain0_62[ 0 ];Gain`max0_63[ 6 ],Gain`min0_63[ -30 ],Gain`res0_63[ 36 ],Gain0_63[ 0 ];</Description>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg2vol_00_00</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>129</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg2vol_00_01</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>130</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg2vol_00_02</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>131</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg2vol_00_03</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>132</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg2vol_00_04</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>133</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>Mute9</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>MuteNoSlewADAU145XAlg9</DetailedName>
+                <Description>Mute (no-slew)( 1 ) : Mute[ False ];</Description>
+                <ModuleParameter>
+                    <Name>MuteNoSlewADAU145XAlg9mute</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>458</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x00, 0x01, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>Mute10</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>MuteNoSlewADAU145XAlg10</DetailedName>
+                <Description>Mute (no-slew)( 1 ) : Mute[ False ];</Description>
+                <ModuleParameter>
+                    <Name>MuteNoSlewADAU145XAlg10mute</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>459</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x00, 0x01, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>Single 5</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>GainAlgNS145X5</DetailedName>
+                <Description>Gain (no-slew)( 1 ) : Gain`max[ 0 ],Gain`min[ -80 ],Gain`res[ 40 ],Gain[ 0 ];</Description>
+                <ModuleParameter>
+                    <Name>GainAlgNS145X5gain</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>468</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>Vol_WF_2</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>HWGainADAU145XAlg5</DetailedName>
+                <Description>Gain (HW slew)( 1 ) : Gain`max[ 12 ],Gain`min[ -80 ],Gain`res[ 920 ],Gain[ -3.5 ],slewType[ Exponential2 ];</Description>
+                <ModuleParameter>
+                    <Name>HWGainADAU145XAlg5target</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>165</Address>
+                    <Value>0.668343901634216</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xAB, 0x18, 0x96, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>HWGainADAU145XAlg5slew_mode</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>166</Address>
+                    <Value>8330</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x20, 0x8A, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>Vol_TW_2</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>HWGainADAU145XAlg6</DetailedName>
+                <Description>Gain (HW slew)( 1 ) : Gain`max[ 12 ],Gain`min[ -80 ],Gain`res[ 920 ],Gain[ -13 ],slewType[ Exponential2 ];</Description>
+                <ModuleParameter>
+                    <Name>HWGainADAU145XAlg6target</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>168</Address>
+                    <Value>0.223872125148773</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x39, 0x4F, 0xAF, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>HWGainADAU145XAlg6slew_mode</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>169</Address>
+                    <Value>8330</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x20, 0x8A, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>Mute1_14</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>MuteSWSlewOptAlgADAU145X11</DetailedName>
+                <Description>Mute (RC optimized SW slew)( 1 ) : Mute[ False ];</Description>
+                <ModuleParameter>
+                    <Name>MuteSWSlewOptAlgADAU145X11mute</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>446</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>MuteSWSlewOptAlgADAU145X11alpha</Name>
+                    <Type>HexArray</Type>
+                    <Address>447</Address>
+                    <Size>8</Size>
+                    <Data>0x00, 0xFF, 0x77, 0x9C, 0x00, 0x00, 0x88, 0x64, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>Mute1_15</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>MuteSWSlewOptAlgADAU145X12</DetailedName>
+                <Description>Mute (RC optimized SW slew)( 1 ) : Mute[ False ];</Description>
+                <ModuleParameter>
+                    <Name>MuteSWSlewOptAlgADAU145X12mute</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>442</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>MuteSWSlewOptAlgADAU145X12alpha</Name>
+                    <Type>HexArray</Type>
+                    <Address>443</Address>
+                    <Size>8</Size>
+                    <Data>0x00, 0xFF, 0x77, 0x9C, 0x00, 0x00, 0x88, 0x64, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>Mute3_L</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>MuteNoSlewADAU145XAlg11</DetailedName>
+                <Description>Mute (no-slew)( 1 ) : Mute[ False ];</Description>
+                <ModuleParameter>
+                    <Name>MuteNoSlewADAU145XAlg11mute</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>471</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x00, 0x01, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>Mute3_R</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>MuteNoSlewADAU145XAlg12</DetailedName>
+                <Description>Mute (no-slew)( 1 ) : Mute[ False ];</Description>
+                <ModuleParameter>
+                    <Name>MuteNoSlewADAU145XAlg12mute</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>472</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x00, 0x01, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>Mute3_4</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>MuteNoSlewADAU145XAlg13</DetailedName>
+                <Description>Mute (no-slew)( 1 ) : Mute[ False ];</Description>
+                <ModuleParameter>
+                    <Name>MuteNoSlewADAU145XAlg13mute</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>473</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x00, 0x01, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>Mute3_5</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>MuteNoSlewADAU145XAlg14</DetailedName>
+                <Description>Mute (no-slew)( 1 ) : Mute[ False ];</Description>
+                <ModuleParameter>
+                    <Name>MuteNoSlewADAU145XAlg14mute</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>474</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x00, 0x01, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>Crossover1</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>CrossoverFilter2WayAlgDPS3001</DetailedName>
+                <Description>2-Way Crossover Filter - Double Precision( 1 ) : FrequencyLow[ 3500 ],FrequencyMidLow[ 250 ],FrequencyMidHigh[ 3000 ],FrequencyHigh[ 3500 ],Gain1[ 0 ],Gain2[ 0 ],Gain3[ 0 ],Type1[ 1 ],Type2[ 1 ],Type3[ 1 ],Type4[ 1 ],InvertLow[ False ],InvertHigh[ False ],Link1[ False ],Link2[ False ];</Description>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3001B2_0</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>143</Address>
+                    <Value>0.0392792224884033</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x0A, 0x0E, 0x34, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3001B2_0</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>143</Address>
+                    <Value>0.0392792224884033</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x0A, 0x0E, 0x34, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3001B1_0</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>144</Address>
+                    <Value>0.0785584449768066</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x14, 0x1C, 0x68, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3001B1_0</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>144</Address>
+                    <Value>0.0785584449768066</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x14, 0x1C, 0x68, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3001B0_0</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>145</Address>
+                    <Value>0.0392792224884033</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x0A, 0x0E, 0x34, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3001B0_0</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>145</Address>
+                    <Value>0.0392792224884033</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x0A, 0x0E, 0x34, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3001A2_0</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>146</Address>
+                    <Value>-0.523524761199951</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x79, 0xFA, 0x48, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3001A2_0</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>146</Address>
+                    <Value>-0.523524761199951</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x79, 0xFA, 0x48, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3001A1_0</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>147</Address>
+                    <Value>1.36640781164169</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x5D, 0xCC, 0xE7, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3001A1_0</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>147</Address>
+                    <Value>1.36640781164169</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x5D, 0xCC, 0xE7, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3001B2_1</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>148</Address>
+                    <Value>0.0392792224884033</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x0A, 0x0E, 0x34, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3001B2_1</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>148</Address>
+                    <Value>0.0392792224884033</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x0A, 0x0E, 0x34, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3001B1_1</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>149</Address>
+                    <Value>0.0785584449768066</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x14, 0x1C, 0x68, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3001B1_1</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>149</Address>
+                    <Value>0.0785584449768066</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x14, 0x1C, 0x68, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3001B0_1</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>150</Address>
+                    <Value>0.0392792224884033</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x0A, 0x0E, 0x34, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3001B0_1</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>150</Address>
+                    <Value>0.0392792224884033</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x0A, 0x0E, 0x34, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3001A2_1</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>151</Address>
+                    <Value>-0.523524761199951</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x79, 0xFA, 0x48, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3001A2_1</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>151</Address>
+                    <Value>-0.523524761199951</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x79, 0xFA, 0x48, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3001A1_1</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>152</Address>
+                    <Value>1.36640781164169</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x5D, 0xCC, 0xE7, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3001A1_1</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>152</Address>
+                    <Value>1.36640781164169</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x5D, 0xCC, 0xE7, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3001LowInvert</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>469</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3001LowInvert</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>469</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3001B2_2</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24776</Address>
+                    <Value>0.722483158111572</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xB8, 0xF4, 0xA8, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3001B2_2</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24776</Address>
+                    <Value>0.722483158111572</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xB8, 0xF4, 0xA8, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3001B1_2</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24777</Address>
+                    <Value>-1.4449662566185</Value>
+                    <Size>4</Size>
+                    <Data>0xFE, 0x8E, 0x16, 0xB1, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3001B1_2</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24777</Address>
+                    <Value>-1.4449662566185</Value>
+                    <Size>4</Size>
+                    <Data>0xFE, 0x8E, 0x16, 0xB1, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3001B0_2</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24778</Address>
+                    <Value>0.722483158111572</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xB8, 0xF4, 0xA8, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3001B0_2</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24778</Address>
+                    <Value>0.722483158111572</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xB8, 0xF4, 0xA8, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3001A2_2</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24779</Address>
+                    <Value>-0.523524761199951</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x79, 0xFA, 0x48, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3001A2_2</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24779</Address>
+                    <Value>-0.523524761199951</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x79, 0xFA, 0x48, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3001A1_2</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24780</Address>
+                    <Value>1.36640781164169</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x5D, 0xCC, 0xE7, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3001A1_2</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24780</Address>
+                    <Value>1.36640781164169</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x5D, 0xCC, 0xE7, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3001B2_3</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24781</Address>
+                    <Value>0.722483158111572</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xB8, 0xF4, 0xA8, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3001B2_3</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24781</Address>
+                    <Value>0.722483158111572</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xB8, 0xF4, 0xA8, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3001B1_3</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24782</Address>
+                    <Value>-1.4449662566185</Value>
+                    <Size>4</Size>
+                    <Data>0xFE, 0x8E, 0x16, 0xB1, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3001B1_3</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24782</Address>
+                    <Value>-1.4449662566185</Value>
+                    <Size>4</Size>
+                    <Data>0xFE, 0x8E, 0x16, 0xB1, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3001B0_3</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24783</Address>
+                    <Value>0.722483158111572</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xB8, 0xF4, 0xA8, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3001B0_3</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24783</Address>
+                    <Value>0.722483158111572</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xB8, 0xF4, 0xA8, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3001A2_3</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24784</Address>
+                    <Value>-0.523524761199951</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x79, 0xFA, 0x48, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3001A2_3</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24784</Address>
+                    <Value>-0.523524761199951</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x79, 0xFA, 0x48, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3001A1_3</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24785</Address>
+                    <Value>1.36640781164169</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x5D, 0xCC, 0xE7, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3001A1_3</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24785</Address>
+                    <Value>1.36640781164169</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x5D, 0xCC, 0xE7, </Data>
+                </ModuleParameter>
+            </Algorithm>
+            <Algorithm>
+                <AlgoName>ALG1</AlgoName>
+                <DetailedName>CrossoverFilter2WayAlgDPS3002</DetailedName>
+                <Description>2-Way Crossover Filter - Double Precision( 1 ) : FrequencyLow[ 3500 ],FrequencyMidLow[ 250 ],FrequencyMidHigh[ 3000 ],FrequencyHigh[ 3500 ],Gain1[ 0 ],Gain2[ 0 ],Gain3[ 0 ],Type1[ 1 ],Type2[ 1 ],Type3[ 1 ],Type4[ 1 ],InvertLow[ False ],InvertHigh[ False ],Link1[ False ],Link2[ False ];</Description>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3002B2_0</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>153</Address>
+                    <Value>0.0392792224884033</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x0A, 0x0E, 0x34, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3002B2_0</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>153</Address>
+                    <Value>0.0392792224884033</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x0A, 0x0E, 0x34, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3002B1_0</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>154</Address>
+                    <Value>0.0785584449768066</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x14, 0x1C, 0x68, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3002B1_0</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>154</Address>
+                    <Value>0.0785584449768066</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x14, 0x1C, 0x68, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3002B0_0</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>155</Address>
+                    <Value>0.0392792224884033</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x0A, 0x0E, 0x34, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3002B0_0</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>155</Address>
+                    <Value>0.0392792224884033</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x0A, 0x0E, 0x34, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3002A2_0</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>156</Address>
+                    <Value>-0.523524761199951</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x79, 0xFA, 0x48, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3002A2_0</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>156</Address>
+                    <Value>-0.523524761199951</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x79, 0xFA, 0x48, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3002A1_0</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>157</Address>
+                    <Value>1.36640781164169</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x5D, 0xCC, 0xE7, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3002A1_0</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>157</Address>
+                    <Value>1.36640781164169</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x5D, 0xCC, 0xE7, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3002B2_1</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>158</Address>
+                    <Value>0.0392792224884033</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x0A, 0x0E, 0x34, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3002B2_1</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>158</Address>
+                    <Value>0.0392792224884033</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x0A, 0x0E, 0x34, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3002B1_1</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>159</Address>
+                    <Value>0.0785584449768066</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x14, 0x1C, 0x68, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3002B1_1</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>159</Address>
+                    <Value>0.0785584449768066</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x14, 0x1C, 0x68, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3002B0_1</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>160</Address>
+                    <Value>0.0392792224884033</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x0A, 0x0E, 0x34, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3002B0_1</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>160</Address>
+                    <Value>0.0392792224884033</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x0A, 0x0E, 0x34, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3002A2_1</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>161</Address>
+                    <Value>-0.523524761199951</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x79, 0xFA, 0x48, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3002A2_1</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>161</Address>
+                    <Value>-0.523524761199951</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x79, 0xFA, 0x48, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3002A1_1</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>162</Address>
+                    <Value>1.36640781164169</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x5D, 0xCC, 0xE7, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3002A1_1</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>162</Address>
+                    <Value>1.36640781164169</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x5D, 0xCC, 0xE7, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3002LowInvert</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>470</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3002LowInvert</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>470</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3002B2_2</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24786</Address>
+                    <Value>0.722483158111572</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xB8, 0xF4, 0xA8, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3002B2_2</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24786</Address>
+                    <Value>0.722483158111572</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xB8, 0xF4, 0xA8, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3002B1_2</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24787</Address>
+                    <Value>-1.4449662566185</Value>
+                    <Size>4</Size>
+                    <Data>0xFE, 0x8E, 0x16, 0xB1, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3002B1_2</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24787</Address>
+                    <Value>-1.4449662566185</Value>
+                    <Size>4</Size>
+                    <Data>0xFE, 0x8E, 0x16, 0xB1, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3002B0_2</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24788</Address>
+                    <Value>0.722483158111572</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xB8, 0xF4, 0xA8, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3002B0_2</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24788</Address>
+                    <Value>0.722483158111572</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xB8, 0xF4, 0xA8, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3002A2_2</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24789</Address>
+                    <Value>-0.523524761199951</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x79, 0xFA, 0x48, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3002A2_2</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24789</Address>
+                    <Value>-0.523524761199951</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x79, 0xFA, 0x48, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3002A1_2</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24790</Address>
+                    <Value>1.36640781164169</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x5D, 0xCC, 0xE7, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3002A1_2</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24790</Address>
+                    <Value>1.36640781164169</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x5D, 0xCC, 0xE7, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3002B2_3</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24791</Address>
+                    <Value>0.722483158111572</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xB8, 0xF4, 0xA8, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3002B2_3</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24791</Address>
+                    <Value>0.722483158111572</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xB8, 0xF4, 0xA8, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3002B1_3</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24792</Address>
+                    <Value>-1.4449662566185</Value>
+                    <Size>4</Size>
+                    <Data>0xFE, 0x8E, 0x16, 0xB1, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3002B1_3</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24792</Address>
+                    <Value>-1.4449662566185</Value>
+                    <Size>4</Size>
+                    <Data>0xFE, 0x8E, 0x16, 0xB1, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3002B0_3</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24793</Address>
+                    <Value>0.722483158111572</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xB8, 0xF4, 0xA8, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3002B0_3</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24793</Address>
+                    <Value>0.722483158111572</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xB8, 0xF4, 0xA8, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3002A2_3</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24794</Address>
+                    <Value>-0.523524761199951</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x79, 0xFA, 0x48, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3002A2_3</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24794</Address>
+                    <Value>-0.523524761199951</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x79, 0xFA, 0x48, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3002A1_3</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24795</Address>
+                    <Value>1.36640781164169</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x5D, 0xCC, 0xE7, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter2WayAlgDPS3002A1_3</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24795</Address>
+                    <Value>1.36640781164169</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x5D, 0xCC, 0xE7, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>10 BAND EQ1</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>EQGenFilterDPS300Alg1</DetailedName>
+                <Description>Multi-Channel - Double Precision( 1 ) : Gain10[ 0 ],Gain20[ 0 ],Q0[ 1.1 ],Boost0[ 0 ],Frequency10[ 55 ],Frequency20[ 1000 ],Ripple0[ 0.1 ],Active10[ True ],Active20[ True ],LowPass10[ True ],LowPass20[ True ],Bypass0[ False ],View0[ False ],Type0[ 4 ],SubType0[ 0 ],Gain11[ 0 ],Gain21[ 0 ],Q1[ 1.1 ],Boost1[ 0 ],Frequency11[ 55 ],Frequency21[ 1000 ],Ripple1[ 0.1 ],Active11[ True ],Active21[ True ],LowPass11[ True ],LowPass21[ True ],Bypass1[ False ],View1[ False ],Type1[ 4 ],SubType1[ 0 ],Gain12[ 0 ],Gain22[ 0 ],Q2[ 0.7 ],Boost2[ 4 ],Frequency12[ 75 ],Frequency22[ 1000 ],Ripple2[ 0.1 ],Active12[ True ],Active22[ True ],LowPass12[ True ],LowPass22[ True ],Bypass2[ False ],View2[ False ],Type2[ 0 ],SubType2[ 0 ],Gain13[ 0 ],Gain23[ 0 ],Q3[ 1.41 ],Boost3[ -10 ],Frequency13[ 300 ],Frequency23[ 1000 ],Ripple3[ 0.1 ],Active13[ True ],Active23[ True ],LowPass13[ True ],LowPass23[ True ],Bypass3[ False ],View3[ False ],Type3[ 0 ],SubType3[ 0 ],Gain14[ 0 ],Gain24[ 0 ],Q4[ 4 ],Boost4[ -4 ],Frequency14[ 100 ],Frequency24[ 1000 ],Ripple4[ 0.1 ],Active14[ True ],Active24[ True ],LowPass14[ True ],LowPass24[ True ],Bypass4[ False ],View4[ False ],Type4[ 0 ],SubType4[ 0 ],Gain15[ 0 ],Gain25[ 0 ],Q5[ 5 ],Boost5[ -6 ],Frequency15[ 4000 ],Frequency25[ 1000 ],Ripple5[ 0.1 ],Active15[ True ],Active25[ True ],LowPass15[ True ],LowPass25[ True ],Bypass5[ False ],View5[ False ],Type5[ 0 ],SubType5[ 0 ],Gain16[ 0 ],Gain26[ 0 ],Q6[ 4 ],Boost6[ 3 ],Frequency16[ 820 ],Frequency26[ 1000 ],Ripple6[ 0.1 ],Active16[ True ],Active26[ True ],LowPass16[ True ],LowPass26[ True ],Bypass6[ False ],View6[ False ],Type6[ 0 ],SubType6[ 0 ],Gain17[ 0 ],Gain27[ 0 ],Q7[ 1.41 ],Boost7[ 5 ],Frequency17[ 8000 ],Frequency27[ 1000 ],Ripple7[ 0.1 ],Active17[ True ],Active27[ True ],LowPass17[ True ],LowPass27[ True ],Bypass7[ False ],View7[ False ],Type7[ 0 ],SubType7[ 0 ],Gain18[ 0 ],Gain28[ 0 ],Q8[ 1.41 ],Boost8[ 5 ],Frequency18[ 16000 ],Frequency28[ 1000 ],Ripple8[ 0.1 ],Active18[ True ],Active28[ True ],LowPass18[ True ],LowPass28[ True ],Bypass8[ False ],View8[ False ],Type8[ 0 ],SubType8[ 0 ],Gain19[ 0 ],Gain29[ 0 ],Q9[ 1.41 ],Boost9[ 5 ],Frequency19[ 32000 ],Frequency29[ 1000 ],Ripple9[ 0.1 ],Active19[ True ],Active29[ True ],LowPass19[ True ],LowPass29[ True ],Bypass9[ False ],View9[ False ],Type9[ 0 ],SubType9[ 0 ],Gain110[ 0 ],Gain210[ 0 ],Q10[ 1.41 ],Boost10[ 5 ],Frequency110[ 64000 ],Frequency210[ 1000 ],Ripple10[ 0.1 ],Active110[ True ],Active210[ True ],LowPass110[ True ],LowPass210[ True ],Bypass10[ False ],View10[ False ],Type10[ 0 ],SubType10[ 0 ],Gain111[ 0 ],Gain211[ 0 ],Q11[ 1.41 ],Boost11[ 5 ],Frequency111[ 128000 ],Frequency211[ 1000 ],Ripple11[ 0.1 ],Active111[ True ],Active211[ True ],LowPass111[ True ],LowPass211[ True ],Bypass11[ False ],View11[ False ],Type11[ 0 ],SubType11[ 0 ],Gain112[ 0 ],Gain212[ 0 ],Q12[ 1.41 ],Boost12[ 5 ],Frequency112[ 256000 ],Frequency212[ 1000 ],Ripple12[ 0.1 ],Active112[ True ],Active212[ True ],LowPass112[ True ],LowPass212[ True ],Bypass12[ False ],View12[ False ],Type12[ 0 ],SubType12[ 0 ],Gain113[ 0 ],Gain213[ 0 ],Q13[ 1.41 ],Boost13[ 5 ],Frequency113[ 512000 ],Frequency213[ 1000 ],Ripple13[ 0.1 ],Active113[ True ],Active213[ True ],LowPass113[ True ],LowPass213[ True ],Bypass13[ False ],View13[ False ],Type13[ 0 ],SubType13[ 0 ],Gain114[ 0 ],Gain214[ 0 ],Q14[ 1.41 ],Boost14[ 5 ],Frequency114[ 1024000 ],Frequency214[ 1000 ],Ripple14[ 0.1 ],Active114[ True ],Active214[ True ],LowPass114[ True ],LowPass214[ True ],Bypass14[ False ],View14[ False ],Type14[ 0 ],SubType14[ 0 ],Index[ 6 ];</Description>
+                <ModuleParameter>
+                    <Name>EQGenFilterDPS300Alg1B2_1</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>170</Address>
+                    <Value>0.99672532081604</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xFF, 0x29, 0x64, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>EQGenFilterDPS300Alg1B1_1</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>171</Address>
+                    <Value>-1.99345058202744</Value>
+                    <Size>4</Size>
+                    <Data>0xFE, 0x01, 0xAD, 0x39, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>EQGenFilterDPS300Alg1B0_1</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>172</Address>
+                    <Value>0.99672532081604</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xFF, 0x29, 0x64, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>EQGenFilterDPS300Alg1A2_1</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>173</Address>
+                    <Value>-0.993476390838623</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x01, 0xAB, 0x88, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>EQGenFilterDPS300Alg1A1_1</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>174</Address>
+                    <Value>1.99342477321625</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0xFE, 0x51, 0x16, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>EQGenFilterDPS300Alg1B2_3</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>175</Address>
+                    <Value>0.985681593418121</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xFC, 0x55, 0xA1, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>EQGenFilterDPS300Alg1B1_3</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>176</Address>
+                    <Value>-1.98882561922073</Value>
+                    <Size>4</Size>
+                    <Data>0xFE, 0x02, 0xDC, 0x53, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>EQGenFilterDPS300Alg1B0_3</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>177</Address>
+                    <Value>1.00323987007141</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0xD4, 0x54, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>EQGenFilterDPS300Alg1A2_3</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>178</Address>
+                    <Value>-0.988921463489532</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x02, 0xD6, 0x0B, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>EQGenFilterDPS300Alg1A1_3</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>179</Address>
+                    <Value>1.98882561922073</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0xFD, 0x23, 0xAD, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>EQGenFilterDPS300Alg1B2_5</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>180</Address>
+                    <Value>0.996647357940674</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xFF, 0x24, 0x48, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>EQGenFilterDPS300Alg1B1_5</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>181</Address>
+                    <Value>-1.99571776390076</Value>
+                    <Size>4</Size>
+                    <Data>0xFE, 0x01, 0x18, 0xA4, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>EQGenFilterDPS300Alg1B0_5</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>182</Address>
+                    <Value>0.999241411685944</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xFF, 0xCE, 0x49, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>EQGenFilterDPS300Alg1A2_5</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>183</Address>
+                    <Value>-0.995888769626617</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x01, 0x0D, 0x6F, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>EQGenFilterDPS300Alg1A1_5</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>184</Address>
+                    <Value>1.99571776390076</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0xFE, 0xE7, 0x5C, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>EQGenFilterDPS300Alg1B2_7</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>185</Address>
+                    <Value>0.973119556903839</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xF9, 0x1E, 0x5D, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>EQGenFilterDPS300Alg1B1_7</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>186</Address>
+                    <Value>-1.96633398532867</Value>
+                    <Size>4</Size>
+                    <Data>0xFE, 0x08, 0x9E, 0x56, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>EQGenFilterDPS300Alg1B0_7</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>187</Address>
+                    <Value>1.0045964717865</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x01, 0x2D, 0x3C, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>EQGenFilterDPS300Alg1A2_7</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>188</Address>
+                    <Value>-0.977716028690338</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x05, 0xB4, 0x67, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>EQGenFilterDPS300Alg1A1_7</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>189</Address>
+                    <Value>1.96633398532867</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0xF7, 0x61, 0xAA, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>EQGenFilterDPS300Alg1B2_2</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24796</Address>
+                    <Value>0.99672532081604</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xFF, 0x29, 0x64, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>EQGenFilterDPS300Alg1B1_2</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24797</Address>
+                    <Value>-1.99345058202744</Value>
+                    <Size>4</Size>
+                    <Data>0xFE, 0x01, 0xAD, 0x39, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>EQGenFilterDPS300Alg1B0_2</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24798</Address>
+                    <Value>0.99672532081604</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xFF, 0x29, 0x64, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>EQGenFilterDPS300Alg1A2_2</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24799</Address>
+                    <Value>-0.993476390838623</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x01, 0xAB, 0x88, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>EQGenFilterDPS300Alg1A1_2</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24800</Address>
+                    <Value>1.99342477321625</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0xFE, 0x51, 0x16, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>EQGenFilterDPS300Alg1B2_4</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24801</Address>
+                    <Value>0.968201279640198</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xF7, 0xDC, 0x0A, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>EQGenFilterDPS300Alg1B1_4</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24802</Address>
+                    <Value>-1.95017743110657</Value>
+                    <Size>4</Size>
+                    <Data>0xFE, 0x0C, 0xC1, 0x2C, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>EQGenFilterDPS300Alg1B0_4</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24803</Address>
+                    <Value>0.983480751514435</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xFB, 0xC5, 0x65, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>EQGenFilterDPS300Alg1A2_4</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24804</Address>
+                    <Value>-0.951682090759277</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x0C, 0x5E, 0x90, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>EQGenFilterDPS300Alg1A1_4</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24805</Address>
+                    <Value>1.95017743110657</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0xF3, 0x3E, 0xD4, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>EQGenFilterDPS300Alg1B2_6</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24806</Address>
+                    <Value>0.900970041751862</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xE6, 0xA5, 0xF9, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>EQGenFilterDPS300Alg1B1_6</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24807</Address>
+                    <Value>-1.61779123544693</Value>
+                    <Size>4</Size>
+                    <Data>0xFE, 0x61, 0xD8, 0x6F, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>EQGenFilterDPS300Alg1B0_6</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24808</Address>
+                    <Value>0.967094421386719</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xF7, 0x93, 0x80, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>EQGenFilterDPS300Alg1A2_6</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24809</Address>
+                    <Value>-0.86806446313858</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x21, 0xC6, 0x87, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>EQGenFilterDPS300Alg1A1_6</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24810</Address>
+                    <Value>1.61779123544693</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x9E, 0x27, 0x91, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>10 BAND EQ1_2</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>EQGenFilterDPS300Alg2</DetailedName>
+                <Description>Multi-Channel - Double Precision( 1 ) : Gain10[ 0 ],Gain20[ 0 ],Q0[ 2 ],Boost0[ -3 ],Frequency10[ 4200 ],Frequency20[ 1000 ],Ripple0[ 0.1 ],Active10[ True ],Active20[ True ],LowPass10[ True ],LowPass20[ True ],Bypass0[ False ],View0[ False ],Type0[ 0 ],SubType0[ 0 ],Gain11[ 0 ],Gain21[ 0 ],Q1[ 4.5 ],Boost1[ 4 ],Frequency11[ 7200 ],Frequency21[ 1000 ],Ripple1[ 0.1 ],Active11[ True ],Active21[ True ],LowPass11[ True ],LowPass21[ True ],Bypass1[ False ],View1[ False ],Type1[ 0 ],SubType1[ 0 ],Gain12[ 0 ],Gain22[ 0 ],Q2[ 2 ],Boost2[ -2 ],Frequency12[ 9000 ],Frequency22[ 1000 ],Ripple2[ 0.1 ],Active12[ True ],Active22[ True ],LowPass12[ True ],LowPass22[ True ],Bypass2[ False ],View2[ False ],Type2[ 0 ],SubType2[ 0 ],Gain13[ 0 ],Gain23[ 0 ],Q3[ 2 ],Boost3[ 0 ],Frequency13[ 3500 ],Frequency23[ 1000 ],Ripple3[ 0.1 ],Active13[ True ],Active23[ True ],LowPass13[ True ],LowPass23[ True ],Bypass3[ False ],View3[ False ],Type3[ 0 ],SubType3[ 0 ],Gain14[ 0 ],Gain24[ 0 ],Q4[ 0.9 ],Boost4[ 0 ],Frequency14[ 16000 ],Frequency24[ 1000 ],Ripple4[ 0.1 ],Active14[ True ],Active24[ True ],LowPass14[ True ],LowPass24[ True ],Bypass4[ False ],View4[ False ],Type4[ 2 ],SubType4[ 0 ],Gain15[ 0 ],Gain25[ 0 ],Q5[ 1.41 ],Boost5[ 0 ],Frequency15[ 3500 ],Frequency25[ 1000 ],Ripple5[ 0.1 ],Active15[ True ],Active25[ True ],LowPass15[ True ],LowPass25[ True ],Bypass5[ False ],View5[ False ],Type5[ 0 ],SubType5[ 0 ],Gain16[ 0 ],Gain26[ 0 ],Q6[ 1.41 ],Boost6[ 5 ],Frequency16[ 4000 ],Frequency26[ 1000 ],Ripple6[ 0.1 ],Active16[ True ],Active26[ True ],LowPass16[ True ],LowPass26[ True ],Bypass6[ False ],View6[ False ],Type6[ 0 ],SubType6[ 0 ],Gain17[ 0 ],Gain27[ 0 ],Q7[ 1.41 ],Boost7[ 5 ],Frequency17[ 8000 ],Frequency27[ 1000 ],Ripple7[ 0.1 ],Active17[ True ],Active27[ True ],LowPass17[ True ],LowPass27[ True ],Bypass7[ False ],View7[ False ],Type7[ 0 ],SubType7[ 0 ],Gain18[ 0 ],Gain28[ 0 ],Q8[ 1.41 ],Boost8[ 5 ],Frequency18[ 16000 ],Frequency28[ 1000 ],Ripple8[ 0.1 ],Active18[ True ],Active28[ True ],LowPass18[ True ],LowPass28[ True ],Bypass8[ False ],View8[ False ],Type8[ 0 ],SubType8[ 0 ],Gain19[ 0 ],Gain29[ 0 ],Q9[ 1.41 ],Boost9[ 5 ],Frequency19[ 32000 ],Frequency29[ 1000 ],Ripple9[ 0.1 ],Active19[ True ],Active29[ True ],LowPass19[ True ],LowPass29[ True ],Bypass9[ False ],View9[ False ],Type9[ 0 ],SubType9[ 0 ],Gain110[ 0 ],Gain210[ 0 ],Q10[ 1.41 ],Boost10[ 5 ],Frequency110[ 64000 ],Frequency210[ 1000 ],Ripple10[ 0.1 ],Active110[ True ],Active210[ True ],LowPass110[ True ],LowPass210[ True ],Bypass10[ False ],View10[ False ],Type10[ 0 ],SubType10[ 0 ],Gain111[ 0 ],Gain211[ 0 ],Q11[ 1.41 ],Boost11[ 5 ],Frequency111[ 128000 ],Frequency211[ 1000 ],Ripple11[ 0.1 ],Active111[ True ],Active211[ True ],LowPass111[ True ],LowPass211[ True ],Bypass11[ False ],View11[ False ],Type11[ 0 ],SubType11[ 0 ],Gain112[ 0 ],Gain212[ 0 ],Q12[ 1.41 ],Boost12[ 5 ],Frequency112[ 256000 ],Frequency212[ 1000 ],Ripple12[ 0.1 ],Active112[ True ],Active212[ True ],LowPass112[ True ],LowPass212[ True ],Bypass12[ False ],View12[ False ],Type12[ 0 ],SubType12[ 0 ],Gain113[ 0 ],Gain213[ 0 ],Q13[ 1.41 ],Boost13[ 5 ],Frequency113[ 512000 ],Frequency213[ 1000 ],Ripple13[ 0.1 ],Active113[ True ],Active213[ True ],LowPass113[ True ],LowPass213[ True ],Bypass13[ False ],View13[ False ],Type13[ 0 ],SubType13[ 0 ],Gain114[ 0 ],Gain214[ 0 ],Q14[ 1.41 ],Boost14[ 5 ],Frequency114[ 1024000 ],Frequency214[ 1000 ],Ripple14[ 0.1 ],Active114[ True ],Active214[ True ],LowPass114[ True ],LowPass214[ True ],Bypass14[ False ],View14[ False ],Type14[ 0 ],SubType14[ 0 ],Index[ 5 ];</Description>
+                <ModuleParameter>
+                    <Name>EQGenFilterDPS300Alg2B2_1</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>190</Address>
+                    <Value>0.770478129386902</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xC5, 0x3E, 0x0E, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>EQGenFilterDPS300Alg2B1_1</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>191</Address>
+                    <Value>-1.47611665725708</Value>
+                    <Size>4</Size>
+                    <Data>0xFE, 0x86, 0x1D, 0x38, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>EQGenFilterDPS300Alg2B0_1</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>192</Address>
+                    <Value>0.960752367973328</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xF5, 0xF3, 0xDE, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>EQGenFilterDPS300Alg2A2_1</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>193</Address>
+                    <Value>-0.731230497360229</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x44, 0xCE, 0x14, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>EQGenFilterDPS300Alg2A1_1</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>194</Address>
+                    <Value>1.47611665725708</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x79, 0xE2, 0xC8, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>EQGenFilterDPS300Alg2B2_3</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>195</Address>
+                    <Value>0.630700349807739</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xA1, 0x75, 0x94, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>EQGenFilterDPS300Alg2B1_3</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>196</Address>
+                    <Value>-0.607842862606049</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x64, 0x64, 0x69, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>EQGenFilterDPS300Alg2B0_3</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>197</Address>
+                    <Value>0.957669675350189</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xF5, 0x29, 0xD7, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>EQGenFilterDPS300Alg2A2_3</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>198</Address>
+                    <Value>-0.588369965553284</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x69, 0x60, 0x96, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>EQGenFilterDPS300Alg2A1_3</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>199</Address>
+                    <Value>0.607842862606049</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x9B, 0x9B, 0x97, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>EQGenFilterDPS300Alg2B2_5</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>200</Address>
+                    <Value>0.215438067913055</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x37, 0x26, 0xF3, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>EQGenFilterDPS300Alg2B1_5</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>201</Address>
+                    <Value>0.60771906375885</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x9B, 0x93, 0x7A, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>EQGenFilterDPS300Alg2B0_5</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>202</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>EQGenFilterDPS300Alg2A2_5</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>203</Address>
+                    <Value>-0.215438067913055</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0xC8, 0xD9, 0x0D, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>EQGenFilterDPS300Alg2A1_5</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>204</Address>
+                    <Value>-0.60771906375885</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x64, 0x6C, 0x86, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>EQGenFilterDPS300Alg2B2_2</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24811</Address>
+                    <Value>0.827731847763062</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xD3, 0xE6, 0x3C, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>EQGenFilterDPS300Alg2B1_2</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24812</Address>
+                    <Value>-1.09722554683685</Value>
+                    <Size>4</Size>
+                    <Data>0xFE, 0xE7, 0x1C, 0x3A, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>EQGenFilterDPS300Alg2B0_2</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24813</Address>
+                    <Value>1.03897976875305</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x09, 0xFA, 0x94, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>EQGenFilterDPS300Alg2A2_2</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24814</Address>
+                    <Value>-0.866711616516113</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x22, 0x1F, 0x30, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>EQGenFilterDPS300Alg2A1_2</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24815</Address>
+                    <Value>1.09722554683685</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x18, 0xE3, 0xC6, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>EQGenFilterDPS300Alg2B2_4</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24816</Address>
+                    <Value>0</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>EQGenFilterDPS300Alg2B1_4</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24817</Address>
+                    <Value>0</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>EQGenFilterDPS300Alg2B0_4</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24818</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>EQGenFilterDPS300Alg2A2_4</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24819</Address>
+                    <Value>0</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>EQGenFilterDPS300Alg2A1_4</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24820</Address>
+                    <Value>0</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>EQGenFilterDPS300Alg2B2_6</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24821</Address>
+                    <Value>0</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>EQGenFilterDPS300Alg2B1_6</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24822</Address>
+                    <Value>0</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>EQGenFilterDPS300Alg2B0_6</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24823</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>EQGenFilterDPS300Alg2A2_6</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24824</Address>
+                    <Value>0</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>EQGenFilterDPS300Alg2A1_6</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24825</Address>
+                    <Value>0</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>Compressor1</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>MonoNoPostGainS300FullRange1</DetailedName>
+                <Description>1-Channel RMS Compressor( 1 ) : TableSize[ 53 ],Lower_Limit[ -135 ],Upper_Limit[ 21 ],HoldTime[ 0 ],DecayTime[ 10 ],TimeConstant[ 121 ],SoftKnee[ False ],RMS_Label[ RMS TC (dB/s) ],Deacay_Label[ ecay (dB/s) ],DecayTime_ms[ 869 ],TimeConstant_ms[ 72 ],IsdBPS[ True ],Pts_26[ False ],Pts_52[ True ],Pts_104[ False ];</Description>
+                <ModuleParameter>
+                    <Name>MonoNoPostGainS300FullRange1points</Name>
+                    <Type>HexArray</Type>
+                    <Address>205</Address>
+                    <Size>216</Size>
+                    <AddrIncr>4</AddrIncr>
+                    <Data>0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0xD2, 0x02, 0x8F, 0x00, 0x94, 0xAC, 0xFA, 0x00, 0x69, 0x41, 0x1C, 0x00, 0x4A, 0x83, 0xAD, 0x00, 0x34, 0xC0, 0x8B, 0x00, 0x25, 0x58, 0x7C, 0x00, 0x1A, 0x70, 0x4E, 0x00, 0x12, 0xB7, 0x98, 0x00, 0x0D, 0x40, 0x30, 0x00, 0x09, 0x5E, 0xA4, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>MonoNoPostGainS300FullRange1tc</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>475</Address>
+                    <Value>0.00058060884475708</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x26, 0x0D, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>MonoNoPostGainS300FullRange1hold</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>476</Address>
+                    <Value>0</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>MonoNoPostGainS300FullRange1decay</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>477</Address>
+                    <Value>2.14576721191406E-06</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x00, 0x24, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>Compressor2</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>MonoNoPostGainS300FullRange2</DetailedName>
+                <Description>1-Channel RMS Compressor( 1 ) : TableSize[ 53 ],Lower_Limit[ -135 ],Upper_Limit[ 21 ],HoldTime[ 0 ],DecayTime[ 10 ],TimeConstant[ 121 ],SoftKnee[ False ],RMS_Label[ RMS TC (dB/s) ],Deacay_Label[ ecay (dB/s) ],DecayTime_ms[ 869 ],TimeConstant_ms[ 72 ],IsdBPS[ True ],Pts_26[ False ],Pts_52[ True ],Pts_104[ False ];</Description>
+                <ModuleParameter>
+                    <Name>MonoNoPostGainS300FullRange2points</Name>
+                    <Type>HexArray</Type>
+                    <Address>259</Address>
+                    <Size>216</Size>
+                    <AddrIncr>4</AddrIncr>
+                    <Data>0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0xD2, 0x02, 0x8F, 0x00, 0x94, 0xAC, 0xFA, 0x00, 0x69, 0x41, 0x1C, 0x00, 0x4A, 0x83, 0xAD, 0x00, 0x34, 0xC0, 0x8B, 0x00, 0x25, 0x58, 0x7C, 0x00, 0x1A, 0x70, 0x4E, 0x00, 0x12, 0xB7, 0x98, 0x00, 0x0D, 0x40, 0x30, 0x00, 0x09, 0x5E, 0xA4, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>MonoNoPostGainS300FullRange2tc</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>482</Address>
+                    <Value>0.00058060884475708</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x26, 0x0D, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>MonoNoPostGainS300FullRange2hold</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>483</Address>
+                    <Value>0</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>MonoNoPostGainS300FullRange2decay</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>484</Address>
+                    <Value>2.14576721191406E-06</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x00, 0x24, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>Compressor3</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>MonoNoPostGainS300FullRange3</DetailedName>
+                <Description>1-Channel RMS Compressor( 1 ) : TableSize[ 53 ],Lower_Limit[ -135 ],Upper_Limit[ 21 ],HoldTime[ 0 ],DecayTime[ 10 ],TimeConstant[ 121 ],SoftKnee[ False ],RMS_Label[ RMS TC (dB/s) ],Deacay_Label[ ecay (dB/s) ],DecayTime_ms[ 869 ],TimeConstant_ms[ 72 ],IsdBPS[ True ],Pts_26[ False ],Pts_52[ True ],Pts_104[ False ];</Description>
+                <ModuleParameter>
+                    <Name>MonoNoPostGainS300FullRange3points</Name>
+                    <Type>HexArray</Type>
+                    <Address>313</Address>
+                    <Size>216</Size>
+                    <AddrIncr>4</AddrIncr>
+                    <Data>0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0xC2, 0x32, 0x24, 0x00, 0x89, 0x7A, 0xEB, 0x00, 0x61, 0x54, 0x18, 0x00, 0x44, 0xE7, 0x3E, 0x00, 0x30, 0xC7, 0xA1, 0x00, 0x22, 0x88, 0x90, 0x00, 0x18, 0x72, 0xA4, 0x00, 0x11, 0x4E, 0xC7, 0x00, 0x0C, 0x40, 0xC0, 0x00, 0x08, 0xAC, 0xA6, 0x00, 0x06, 0x24, 0x19, 0x00, 0x04, 0x57, 0xA4, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>MonoNoPostGainS300FullRange3tc</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>489</Address>
+                    <Value>0.00058060884475708</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x26, 0x0D, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>MonoNoPostGainS300FullRange3hold</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>490</Address>
+                    <Value>0</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>MonoNoPostGainS300FullRange3decay</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>491</Address>
+                    <Value>2.14576721191406E-06</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x00, 0x24, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>Compressor4</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>MonoNoPostGainS300FullRange4</DetailedName>
+                <Description>1-Channel RMS Compressor( 1 ) : TableSize[ 53 ],Lower_Limit[ -135 ],Upper_Limit[ 21 ],HoldTime[ 0 ],DecayTime[ 10 ],TimeConstant[ 121 ],SoftKnee[ False ],RMS_Label[ RMS TC (dB/s) ],Deacay_Label[ ecay (dB/s) ],DecayTime_ms[ 869 ],TimeConstant_ms[ 72 ],IsdBPS[ True ],Pts_26[ False ],Pts_52[ True ],Pts_104[ False ];</Description>
+                <ModuleParameter>
+                    <Name>MonoNoPostGainS300FullRange4points</Name>
+                    <Type>HexArray</Type>
+                    <Address>367</Address>
+                    <Size>216</Size>
+                    <AddrIncr>4</AddrIncr>
+                    <Data>0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0xC2, 0x32, 0x24, 0x00, 0x89, 0x7A, 0xEB, 0x00, 0x61, 0x54, 0x18, 0x00, 0x44, 0xE7, 0x3E, 0x00, 0x30, 0xC7, 0xA1, 0x00, 0x22, 0x88, 0x90, 0x00, 0x18, 0x72, 0xA4, 0x00, 0x11, 0x4E, 0xC7, 0x00, 0x0C, 0x40, 0xC0, 0x00, 0x08, 0xAC, 0xA6, 0x00, 0x06, 0x24, 0x19, 0x00, 0x04, 0x57, 0xA4, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>MonoNoPostGainS300FullRange4tc</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>496</Address>
+                    <Value>0.00058060884475708</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x26, 0x0D, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>MonoNoPostGainS300FullRange4hold</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>497</Address>
+                    <Value>0</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>MonoNoPostGainS300FullRange4decay</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>498</Address>
+                    <Value>2.14576721191406E-06</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x00, 0x24, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>AMP_volume</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>SWGainOptADAU145XAlg2</DetailedName>
+                <Description>Gain (RC optimized SW slew)( 1 ) : Gain`max[ 0 ],Gain`min[ -80 ],Gain`res[ 40 ],Gain[ 0 ];</Description>
+                <ModuleParameter>
+                    <Name>SWGainOptADAU145XAlg2target</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>430</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>SWGainOptADAU145XAlg2alpha</Name>
+                    <Type>HexArray</Type>
+                    <Address>431</Address>
+                    <Size>8</Size>
+                    <Data>0x00, 0xFF, 0xE4, 0xB3, 0x00, 0x00, 0x1B, 0x4D, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>Lineout_volume</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>SWGainOptADAU145XAlg3</DetailedName>
+                <Description>Gain (RC optimized SW slew)( 1 ) : Gain`max[ 0 ],Gain`min[ -80 ],Gain`res[ 40 ],Gain[ 0 ];</Description>
+                <ModuleParameter>
+                    <Name>SWGainOptADAU145XAlg3target</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>438</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>SWGainOptADAU145XAlg3alpha</Name>
+                    <Type>HexArray</Type>
+                    <Address>439</Address>
+                    <Size>8</Size>
+                    <Data>0x00, 0xFF, 0xE4, 0xB3, 0x00, 0x00, 0x1B, 0x4D, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>Mute7</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>MuteSWSlewOptAlgADAU145X1</DetailedName>
+                <Description>Mute (RC optimized SW slew)( 1 ) : Mute[ False ];</Description>
+                <ModuleParameter>
+                    <Name>MuteSWSlewOptAlgADAU145X1mute</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>422</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>MuteSWSlewOptAlgADAU145X1alpha</Name>
+                    <Type>HexArray</Type>
+                    <Address>423</Address>
+                    <Size>8</Size>
+                    <Data>0x00, 0xFF, 0x77, 0x9C, 0x00, 0x00, 0x88, 0x64, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>Mute8</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>MuteSWSlewOptAlgADAU145X2</DetailedName>
+                <Description>Mute (RC optimized SW slew)( 1 ) : Mute[ False ];</Description>
+                <ModuleParameter>
+                    <Name>MuteSWSlewOptAlgADAU145X2mute</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>426</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>MuteSWSlewOptAlgADAU145X2alpha</Name>
+                    <Type>HexArray</Type>
+                    <Address>427</Address>
+                    <Size>8</Size>
+                    <Data>0x00, 0xFF, 0x77, 0x9C, 0x00, 0x00, 0x88, 0x64, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>esp32_volume</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>SWGainOptADAU145XAlg1</DetailedName>
+                <Description>Gain (RC optimized SW slew)( 1 ) : Gain`max[ 0 ],Gain`min[ -80 ],Gain`res[ 40 ],Gain[ 0 ];</Description>
+                <ModuleParameter>
+                    <Name>SWGainOptADAU145XAlg1target</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>434</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>SWGainOptADAU145XAlg1alpha</Name>
+                    <Type>HexArray</Type>
+                    <Address>435</Address>
+                    <Size>8</Size>
+                    <Data>0x00, 0xFF, 0xE4, 0xB3, 0x00, 0x00, 0x1B, 0x4D, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>Signal Detection1</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>SignalDetectAlgS3001</DetailedName>
+                <Description>Signal Detection Algorihm( 1 ) : Duration[ 2 ],DBThreshold[ -40 ];</Description>
+                <ModuleParameter>
+                    <Name>SignalDetectAlgS3001time_constant</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>139</Address>
+                    <Value>96000</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x01, 0x77, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>SignalDetectAlgS3001counterdown</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>140</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x00, 0x01, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>SignalDetectAlgS3001threshold</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>141</Address>
+                    <Value>0.00999999046325684</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x02, 0x8F, 0x5C, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>ReadBack1</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>ReadBackAlgNewSigma3003</DetailedName>
+                <Description>Data/Register Readback</Description>
+                <ModuleParameter>
+                    <Name>ReadBackAlgNewSigma3003Value</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>163</Address>
+                    <Value>0</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>Signal Detection2</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>SignalDetectAlgS3002</DetailedName>
+                <Description>Signal Detection Algorihm( 1 ) : Duration[ 2 ],DBThreshold[ -40 ];</Description>
+                <ModuleParameter>
+                    <Name>SignalDetectAlgS3002time_constant</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>135</Address>
+                    <Value>96000</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x01, 0x77, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>SignalDetectAlgS3002counterdown</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>136</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x00, 0x01, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>SignalDetectAlgS3002threshold</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>137</Address>
+                    <Value>0.00999999046325684</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x02, 0x8F, 0x5C, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>ReadBack2</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>ReadBackAlgNewSigma3004</DetailedName>
+                <Description>Data/Register Readback</Description>
+                <ModuleParameter>
+                    <Name>ReadBackAlgNewSigma3004Value</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>142</Address>
+                    <Value>0</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+    </IC>
+</Schematic>

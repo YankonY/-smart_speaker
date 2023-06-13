@@ -1,0 +1,98 @@
+ADAU145X Assembler, Analog Devices Inc.
+Version: 4.7.0,1827  (built 4/5/2022)
+
+##### Compile Started: Thursday, June 1, 2023 4:53:01 PM #####
+ADAU145X Assembler, Analog Devices Inc.
+Version: 4.7.0,1827  (built 4/5/2022)
+
+##### Compile Started: Thursday, June 1, 2023 4:53:01 PM #####
+##### Compile succeeded:  0 errors, 0 warnings #####
+
+##### Summary #####
+DM0 RAM used:       00505    (of 20480)
+DM1 RAM used:       00253    (of 20480)
+PM  RAM used(Data): 00000    (of 8192)
+PM  RAM used(Inst): 00863    (of 8192) 734 instructions (32bit: 605  64bit: 129)
+Total PM used:      00863    (of 8192)
+
+--------------------------------------------------------------------------------------
+STREAM                        Inst      Inst      DM0     DM1     PM
+Instance                      (cycles)  (size)    
+--------------------------------------------------------------------------------------
+STACK                          -         -        16      0       0       
+Crossover1                    62        90        40      66      0
+10 BAND EQ1_2                 36        52        41      49      0
+Compressor4                   47        51        61      1       0
+Compressor3                   47        51        61      1       0
+Compressor2                   47        51        61      1       0
+Compressor1                   47        51        61      1       0
+10 BAND EQ1                   40        45        50      53      0
+FRAMEWORK                     62        43        23      0       0
+Slew vol 1_2                  18        22        0       5       0
+Slew vol 1                    18        22        0       5       0
+NxM Mixer2                    11        14        5       1       0
+NxM Mixer1                    11        14        5       1       0
+Vol_TW_2                      10        13        3       2       0
+Vol_WF_2                      10        13        3       2       0
+Signal Detection2             12        12        4       1       0
+Signal Detection1             12        12        4       1       0
+AMP_volume                    9         9         4       2       0
+esp32_volume                  9         9         4       2       0
+Lineout_volume                9         9         4       2       0
+Mute1_14                      9         9         4       0       0
+Mute1_15                      9         9         4       0       0
+DCB2                          8         8         3       3       0
+DCB1                          8         8         3       3       0
+Single 5                      7         7         1       2       0
+CH1                           7         7         1       2       0
+Single 4                      7         7         1       2       0
+Single 1                      7         7         1       2       0
+Single 3                      7         7         1       2       0
+Mute8                         6         6         4       1       0
+Mute7                         6         6         4       1       0
+RegRead2                      5         6         1       1       0
+RegRead1                      5         6         1       1       0
+AsrcIn2                       6         6         0       4       0
+Mute3_L                       4         4         1       1       0
+Mute3_R                       4         4         1       1       0
+Mute3_4                       4         4         1       1       0
+Mute3_5                       4         4         1       1       0
+Mute1                         4         4         1       1       0
+Mute6                         4         4         1       1       0
+Mute3                         4         4         1       1       0
+Shift1                        4         4         1       1       0
+Mute4                         4         4         1       1       0
+Aux_R                         4         4         1       1       0
+Aux_L                         4         4         1       1       0
+Mute5                         4         4         1       1       0
+Mute2                         4         4         1       1       0
+Mute9                         4         4         1       0       0
+Mute10                        4         4         1       0       0
+IN3                           4         4         0       2       0
+IN0                           4         4         0       2       0
+Logic3                        4         4         0       1       0
+Logic1                        4         4         0       1       0
+Logic4                        4         4         0       1       0
+ReadBack2                     3         3         1       1       0
+ReadBack3                     3         3         1       1       0
+ReadBack4                     3         3         1       1       0
+ReadBack1                     3         3         1       1       0
+AsrcIn1                       3         3         0       2       0
+DC3                           2         2         1       1       0
+DC1                           2         2         1       1       0
+Version                       2         2         1       1       0
+Output6                       2         2         0       0       0
+Output5                       2         2         0       0       0
+Output8                       2         2         0       0       0
+Output3                       2         2         0       0       0
+Output1                       2         2         0       0       0
+Output2                       2         2         0       0       0
+SpdifOut2                     2         2         0       0       0
+SpdifOut1                     2         2         0       0       0
+Output4                       2         2         0       0       0
+Output7                       2         2         0       0       0
+--------------------------------------------------------------------------------------
+Total                         735       803       501     249     0
+--------------------------------------------------------------------------------------
+(% Fs=48.0kHz)                12%       10%       3%      2%      0%
+
